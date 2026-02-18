@@ -1,0 +1,17 @@
+# Python tooling (not part of the website)
+urteile/update.py
+urteile/fix_all.py
+urteile/fix_data.json
+urteile/extract_leitsaetze.py
+urteile/fix_leitsaetze.py
+
+# Claude Code
+.claude/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rechtsprechungssammlung | Venture Capital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="header-text">
+                <h1>Rechtsprechung</h1>
+                <p class="subtitle">Eine subjektive Auswahl praxisrelevanter Entscheidungen aus der Beratung von Venture-Capital-Transaktionen und Wachstumsunternehmen. Die Sammlung erhebt keinen Anspruch auf Vollständigkeit, sondern dokumentiert Urteile und Beschlüsse, die mir in der anwaltlichen Praxis begegnet sind.</p>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Suche nach Gericht, Aktenzeichen, Stichwort...">
+            </div>
+            <div id="tag-filters" class="tags"></div>
+        </div>
+    </header>
+    <main>
+        <div class="toolbar">
+            <div id="count"></div>
+            <div id="sort-toggle" class="sort-toggle">
+                <button class="sort-btn active" data-sort="date">Neueste zuerst</button>
+                <button class="sort-btn" data-sort="court">Nach Gericht</button>
+            </div>
+        </div>
+        <div id="urteile-list"></div>
+    </main>
+    <footer>
+        <div class="footer-inner">
+            Zusammengestellt mit Daten aus <a href="https://www.zotero.org" target="_blank" rel="noopener">Zotero</a>
+        </div>
+    </footer>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
