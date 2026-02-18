@@ -85,7 +85,9 @@ const urteile = [
     "dateDecided": "2009-09-22",
     "docketNumber": "31 Wx 110/09",
     "url": "",
-    "tags": [],
+    "tags": [
+      "Kapitalerhöhung"
+    ],
     "leitsaetze": "Ein Beschluss der Hauptversammlung über eine Kapitalerhöhung nach § 182 AktG, der einen Höchstbetrag bestimmt, kann vom Vorstand nicht zeitlich unbegrenzt in mehreren Tranchen durchgeführt werden.",
     "kommentar": ""
   },
@@ -96,7 +98,7 @@ const urteile = [
     "docketNumber": "31 Wx 457/11",
     "url": "",
     "tags": [],
-    "leitsaetze": "1. Beim genehmigten Kapital einer GmbH nach § 55a GmbHG kann die Entscheidung über den Ausschluss des Bezugsrechts der Gesellschafter auf die Geschäftsführung übertragen werden.\n2. Die Geschäftsführung kann zugleich ermächtigt werden, die Satzung entsprechend anzupassen.",
+    "leitsaetze": "1. Zum genehmigten Kapital bei einer GmbH.\n\n2. Die Entscheidung über den Ausschluss des Bezugsrechts der Gesellschafter kann dem Geschäftsführer übertragen werden.\n\n3. Der Geschäftsführer kann auch zur Anpassung der Satzung ermächtigt werden.",
     "kommentar": ""
   },
   {
@@ -224,6 +226,38 @@ const urteile = [
     "dateDecided": "",
     "docketNumber": "",
     "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2023-N-6571?hl=true",
+    "tags": [],
+    "leitsaetze": "1. Die Regelung des § 121 Abs. 5 S. 1 AktG (analog für die GmbH), wonach mangels abweichender Satzungsregelung die Hauptversammlung am Sitz der Gesellschaft stattfinden soll, bezweckt, die Gesellschafter vor einer willkürlichen Wahl des Versammlungsortes und einer daraus folgenden Beeinträchtigung ihres Teilnahmerechtes zu schützen. (redaktioneller Leitsatz)\n\n2. Zumindest in einer Gesellschaft mit einem überschaubaren Gesellschafterkreis darf ein Ort gewählt werden, von dem von vornherein feststeht, dass er die Teilnahme nicht erschwert, weil ihn die Gesellschafter leichter als den Sitz der Gesellschaft erreichen können. Des Weiteren darf von der Sollbestimmung abgewichen werden, wenn am Sitz der Gesellschaft kein geeignetes Versammlungslokal vorhanden ist oder die Verkehrsverbindung dorthin gestört ist. (redaktioneller Leitsatz)\n\n3. Der Anfechtung steht nicht entgegen, dass der fehlerhafte Versammlungsort keine Auswirkung auf das Beschlussergebnis hatte. Für die Anfechtbarkeit genügt die Relevanz des Fehlers für das Mitwirkungs- oder Partizipationsrecht entsprechend § 243 Abs. 4 AktG; insoweit ist der Versammlungsort für das Teilhaberecht eines Gesellschafters von grundsätzlicher Bedeutung. (redaktioneller Leitsatz)",
+    "kommentar": ""
+  },
+  {
+    "caseName": "Auslegung von „Zustimmung der Mehrheit der Gesellschafter“ im Gesellschaftsvertrag",
+    "court": "LG Köln",
+    "dateDecided": "1991-12-18",
+    "docketNumber": "88 O 97/91",
+    "url": "https://online.otto-schmidt.de/db/dokument?id=gmbhr.1993.02.r.18",
+    "tags": [
+      "Gesellschafterversammlungen"
+    ],
+    "leitsaetze": "1. Erklärt ein GmbH-Gesellschaftsvertrag die „Zustimmung der Mehrheit der Gesellschafter“ zur (weiteren) Wirksamkeitsvoraussetzung der Abtretung von Geschäftsanteilen i.S. des § 15 Abs. 5, 1. HS GmbHG, so ist diese Formulierung nicht in dem Sinne zu verstehen, daß die Zustimmung einzelner Gesellschafter genügen soll, sofern nur die Gesamtheit der zustimmenden Gesellschafter die Mehrheit der Stimmen hält (sog. „Mehrheitsquorum“).\n\n2. Die Klausel ist vielmehr so auszulegen, daß die Zustimmung „der Gesellschafter“ einen mit einfacher Mehrheit gefaßten Gesellschafterbeschluß voraussetzt; die Einfügung der Worte: „der Mehrheit …“ stellt dabei lediglich klar, daß nicht etwa alle Gesellschafter zustimmen müssen, sondern ein mehrheitlicher Beschluß ausreicht.",
+    "kommentar": ""
+  },
+  {
+    "caseName": "Schriftliche Abstimmung über Änderungen des Gesellschaftsvertrags",
+    "court": "KG",
+    "dateDecided": "2009-05-26",
+    "docketNumber": "14 U 212/08",
+    "url": "https://beck-online.beck.de/Dokument?vpath=bibdata%2Fzeits%2Fnzg%2F2010%2Fcont%2Fnzg.2010.303.1.htm&anchor=Y-300-Z-NZG-B-2010-S-303",
+    "tags": [],
+    "leitsaetze": "",
+    "kommentar": ""
+  },
+  {
+    "caseName": "OLG München, 02.08.2018 - 7 U 2107/18",
+    "court": "OLG München",
+    "dateDecided": "2018-08-02",
+    "docketNumber": "7 U 2107/18",
+    "url": "https://beck-online.beck.de/Dokument?vpath=bibdata%2Fents%2Fbeckrs%2F2018%2Fcont%2Fbeckrs.2018.27810.htm",
     "tags": [],
     "leitsaetze": "",
     "kommentar": ""
