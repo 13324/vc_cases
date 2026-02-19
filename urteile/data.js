@@ -222,9 +222,9 @@ const urteile = [
   },
   {
     "caseName": "Versammlungsort der GmbH-Gesellschafterversammlung",
-    "court": "",
-    "dateDecided": "",
-    "docketNumber": "",
+    "court": "OLG München",
+    "dateDecided": "2023-03-22",
+    "docketNumber": "7 U 1995/21",
     "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2023-N-6571?hl=true",
     "tags": [],
     "leitsaetze": "1. Die Regelung des § 121 Abs. 5 S. 1 AktG (analog für die GmbH), wonach mangels abweichender Satzungsregelung die Hauptversammlung am Sitz der Gesellschaft stattfinden soll, bezweckt, die Gesellschafter vor einer willkürlichen Wahl des Versammlungsortes und einer daraus folgenden Beeinträchtigung ihres Teilnahmerechtes zu schützen. (redaktioneller Leitsatz)\n\n2. Zumindest in einer Gesellschaft mit einem überschaubaren Gesellschafterkreis darf ein Ort gewählt werden, von dem von vornherein feststeht, dass er die Teilnahme nicht erschwert, weil ihn die Gesellschafter leichter als den Sitz der Gesellschaft erreichen können. Des Weiteren darf von der Sollbestimmung abgewichen werden, wenn am Sitz der Gesellschaft kein geeignetes Versammlungslokal vorhanden ist oder die Verkehrsverbindung dorthin gestört ist. (redaktioneller Leitsatz)\n\n3. Der Anfechtung steht nicht entgegen, dass der fehlerhafte Versammlungsort keine Auswirkung auf das Beschlussergebnis hatte. Für die Anfechtbarkeit genügt die Relevanz des Fehlers für das Mitwirkungs- oder Partizipationsrecht entsprechend § 243 Abs. 4 AktG; insoweit ist der Versammlungsort für das Teilhaberecht eines Gesellschafters von grundsätzlicher Bedeutung. (redaktioneller Leitsatz)",
@@ -253,7 +253,7 @@ const urteile = [
     "kommentar": ""
   },
   {
-    "caseName": "OLG München, 02.08.2018 - 7 U 2107/18",
+    "caseName": "Nichtigkeit eines nachvertraglichen Wettbewerbsverbots",
     "court": "OLG München",
     "dateDecided": "2018-08-02",
     "docketNumber": "7 U 2107/18",
