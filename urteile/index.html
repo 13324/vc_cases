@@ -10,7 +10,7 @@
     <header>
         <div class="container">
             <h1>Rechtsprechung<span class="dot">.</span></h1>
-            <p class="subtitle">Eine subjektive Auswahl praxisrelevanter Entscheidungen aus der Beratung von Venture-Capital-Transaktionen und Wachstumsunternehmen. Die Sammlung erhebt keinen Anspruch auf Vollständigkeit, sondern dokumentiert Urteile und Beschlüsse, die mir in der anwaltlichen Praxis begegnet sind.</p>
+            <p class="subtitle">Eine subjektive Auswahl praxisrelevanter Entscheidungen aus der Beratung von Venture-Capital-Transaktionen und Wachstumsunternehmen. Die Sammlung erhebt keinen Anspruch auf Vollständigkeit, sondern dokumentiert Urteile und Beschlüsse, die mir in der anwaltlichen Praxis begegnet sind. Farblich hervorgehobene Entscheidungen haben aus meiner Sicht besondere Praxisrelevanz.</p>
             <div class="search-bar">
                 <input type="text" id="search" placeholder="Suche nach Gericht, Aktenzeichen, Stichwort...">
             </div>
@@ -31,9 +31,38 @@
     </main>
     <footer>
         <div class="container">
-            Zusammengestellt mit Daten aus <a href="https://www.zotero.org" target="_blank" rel="noopener">Zotero</a>
+            <p>Zusammengestellt von Lorenz Frey, Partner bei <a href="https://v14.de" target="_blank" rel="noopener">V14</a>. Aufbereitung mit Unterst&uuml;tzung von <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a>.</p>
+            <p>Anregungen willkommen &ndash; gerne via <a href="https://www.linkedin.com/in/lorenzfrey/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+            <div class="footer-links">
+                <a href="#" id="impressum-link">Impressum</a>
+                <span class="footer-sep">&middot;</span>
+                <span>Daten aus <a href="https://www.zotero.org" target="_blank" rel="noopener">Zotero</a></span>
+            </div>
         </div>
     </footer>
+
+    <!-- Impressum Modal -->
+    <div id="impressum-modal" class="modal-overlay" hidden>
+        <div class="modal">
+            <button class="modal-close" id="impressum-close" aria-label="Schlie&szlig;en">&times;</button>
+            <h2>Impressum</h2>
+            <div class="modal-body">
+                <p><strong>Lorenz Frey</strong></p>
+                <p>
+                    <!-- Adresse bitte erg&auml;nzen -->
+                    [Adresse]<br>
+                    [PLZ Ort]
+                </p>
+                <p>
+                    <!-- Kontaktdaten bitte erg&auml;nzen -->
+                    E-Mail: [E-Mail-Adresse]
+                </p>
+                <h3>Haftungshinweis</h3>
+                <p>Die auf dieser Seite bereitgestellten Informationen dienen ausschlie&szlig;lich allgemeinen Informationszwecken und stellen keine Rechtsberatung dar. Trotz sorgf&auml;ltiger Pr&uuml;fung wird keine Gew&auml;hr f&uuml;r die Richtigkeit, Vollst&auml;ndigkeit und Aktualit&auml;t der Inhalte &uuml;bernommen.</p>
+            </div>
+        </div>
+    </div>
+
     <script src="data.js"></script>
     <script src="app.js"></script>
 </body>

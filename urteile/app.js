@@ -5,7 +5,6 @@ const tagFiltersEl = document.getElementById("tag-filters");
 
 let activeTag = null;
 let currentSort = "date";
-
 function getAllTags() {
     const tags = new Set();
     urteile.forEach(u => (u.tags || []).forEach(t => tags.add(t)));
@@ -77,10 +76,40 @@ function formatLeitsaetze(text) {
     ).join("");
 }
 
+function resolveRelated(keys) {
+    if (!keys || !keys.length) return [];
+    return keys.map(k => {
+        const item = urteile.find(u => u.key === k);
+        if (!item) return null;
+        return { key: k, court: item.court, dateDecided: item.dateDecided, docketNumber: item.docketNumber };
+    }).filter(Boolean);
+}
+
+function renderRelated(related) {
+    if (!related.length) return "";
+    const links = related.map(r => {
+        const label = [r.court, r.docketNumber, formatDate(r.dateDecided)].filter(Boolean).join(", ");
+        return `<span class="related-link" onclick="event.stopPropagation(); scrollToCase('${r.key}')">${escapeHtml(label)}</span>`;
+    }).join("");
+    return `<div class="related-section detail-section"><h3>Verwandte Entscheidungen</h3>${links}</div>`;
+}
+
+function scrollToCase(key) {
+    const card = document.querySelector(`.card[data-key="${key}"]`);
+    if (!card) return;
+    card.scrollIntoView({ behavior: "smooth", block: "center" });
+    card.classList.add("open");
+    card.style.transition = "background 0.3s";
+    card.style.background = "var(--linen)";
+    setTimeout(() => { card.style.background = ""; }, 1500);
+}
+
 function renderCard(u) {
-    const hasDetails = u.leitsaetze || u.kommentar;
+    const hasDetails = u.leitsaetze || u.kommentar || (u.related && u.related.length);
+    const related = resolveRelated(u.related);
+    const highlightClass = u.highlight ? " highlight" : "";
     return `
-    <div class="card${hasDetails ? " has-details" : ""}" ${hasDetails ? `onclick="toggleDetails(this)"` : ""}>
+    <div class="card${hasDetails ? " has-details" : ""}${highlightClass}" data-key="${u.key || ""}" ${hasDetails ? `onclick="toggleDetails(this)"` : ""}>
         <div class="card-header">
             <div>
                 <div class="card-court">${u.court || ""}</div>
@@ -98,6 +127,7 @@ function renderCard(u) {
         ${hasDetails ? `<div class="card-details">
             ${u.leitsaetze ? `<div class="detail-section"><h3>Leits\u00e4tze</h3>${formatLeitsaetze(u.leitsaetze)}</div>` : ""}
             ${u.kommentar ? `<div class="detail-section"><h3>Kommentar</h3>${formatLeitsaetze(u.kommentar)}</div>` : ""}
+            ${renderRelated(related)}
         </div>` : ""}
     </div>`;
 }
@@ -142,6 +172,22 @@ document.querySelectorAll(".sort-btn").forEach(btn => {
 });
 
 searchInput.addEventListener("input", () => renderList(filterAndSort()));
+
+// Impressum modal
+const impressumModal = document.getElementById("impressum-modal");
+document.getElementById("impressum-link").addEventListener("click", (e) => {
+    e.preventDefault();
+    impressumModal.hidden = false;
+});
+document.getElementById("impressum-close").addEventListener("click", () => {
+    impressumModal.hidden = true;
+});
+impressumModal.addEventListener("click", (e) => {
+    if (e.target === impressumModal) impressumModal.hidden = true;
+});
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !impressumModal.hidden) impressumModal.hidden = true;
+});
 
 renderTagFilters();
 renderList(filterAndSort());

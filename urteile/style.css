@@ -210,9 +210,6 @@ main {
 
 .card.has-details:hover {
     background: var(--linen);
-    margin: 0 -0.75rem;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
     border-radius: 5px;
 }
 
@@ -347,6 +344,109 @@ main {
     font-style: italic;
 }
 
+/* --- Highlight badge --- */
+.card.highlight {
+    border-left: 3px solid var(--terracotta);
+    padding-left: calc(0.75rem - 3px);
+    margin-left: 0;
+}
+
+/* --- Related links --- */
+.related-section {
+    margin-top: 0.85rem;
+}
+
+.related-section h3 {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--sage);
+    margin-bottom: 0.35rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.related-link {
+    display: inline-block;
+    font-size: 0.82rem;
+    color: var(--terracotta);
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    margin-right: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.related-link:hover {
+    color: var(--terracotta-dark);
+}
+
+/* --- Modal --- */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(45, 42, 38, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 1rem;
+}
+
+.modal-overlay[hidden] {
+    display: none;
+}
+
+.modal {
+    background: var(--cream);
+    border-radius: 10px;
+    max-width: 520px;
+    width: 100%;
+    padding: 2rem;
+    position: relative;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modal h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.modal h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    margin-bottom: 0.35rem;
+    color: var(--charcoal);
+}
+
+.modal-body p {
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: var(--charcoal-soft);
+    margin-bottom: 0.5rem;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--warm-gray);
+    cursor: pointer;
+    line-height: 1;
+    padding: 0.25rem;
+}
+
+.modal-close:hover {
+    color: var(--charcoal);
+}
+
 /* --- Footer --- */
 footer {
     padding: 1.75rem 0;
@@ -354,6 +454,27 @@ footer {
     text-align: center;
     color: var(--warm-gray);
     font-size: 0.8rem;
+}
+
+footer p {
+    margin-bottom: 0.4rem;
+    line-height: 1.55;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.6rem;
+}
+
+.footer-sep {
+    color: var(--rule);
 }
 
 footer a {
@@ -375,9 +496,6 @@ footer a:hover {
         gap: 0.4rem;
     }
     .card.has-details:hover {
-        margin: 0;
-        padding-left: 0;
-        padding-right: 0;
         border-radius: 0;
     }
 }
