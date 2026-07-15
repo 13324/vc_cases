@@ -4,6 +4,7 @@ urteile/fix_all.py
 urteile/fix_data.json
 urteile/extract_leitsaetze.py
 urteile/fix_leitsaetze.py
+deploy.sh
 
 # Claude Code
 .claude/

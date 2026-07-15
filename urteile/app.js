@@ -5,16 +5,15 @@ const tagFiltersEl = document.getElementById("tag-filters");
 
 let activeTag = null;
 let currentSort = "date";
-function getAllTags() {
-    const tags = new Set();
-    urteile.forEach(u => (u.tags || []).forEach(t => tags.add(t)));
-    return [...tags].sort();
+function getTagCounts() {
+    const counts = new Map();
+    urteile.forEach(u => (u.tags || []).forEach(t => counts.set(t, (counts.get(t) || 0) + 1)));
+    return new Map([...counts.entries()].sort((a, b) => a[0].localeCompare(b[0], "de")));
 }
 
 function renderTagFilters() {
-    const allTags = getAllTags();
-    tagFiltersEl.innerHTML = allTags.map(tag =>
-        `<button class="tag-pill${activeTag === tag ? " active" : ""}" data-tag="${tag}">${tag}</button>`
+    tagFiltersEl.innerHTML = [...getTagCounts().entries()].map(([tag, n]) =>
+        `<button class="tag-pill${activeTag === tag ? " active" : ""}" data-tag="${tag}">${tag}<span class="pill-count">${n}</span></button>`
     ).join("");
 }
 
@@ -100,35 +99,37 @@ function scrollToCase(key) {
     card.scrollIntoView({ behavior: "smooth", block: "center" });
     card.classList.add("open");
     card.style.transition = "background 0.3s";
-    card.style.background = "var(--linen)";
+    card.style.background = "var(--hover)";
     setTimeout(() => { card.style.background = ""; }, 1500);
 }
 
-function renderCard(u) {
+function renderCard(u, omitCourt = false) {
     const hasDetails = u.leitsaetze || u.kommentar || (u.related && u.related.length);
     const related = resolveRelated(u.related);
     const highlightClass = u.highlight ? " highlight" : "";
+    const teaser = (u.leitsaetze || u.kommentar || "").split("\n").map(l => l.trim()).filter(Boolean).join(" ");
+    const sep = `<span class="sep">\u00b7</span>`;
+    const metaParts = [
+        omitCourt ? "" : (u.court || ""),
+        u.docketNumber ? `Az. ${u.docketNumber}` : "",
+        ...(u.tags || [])
+    ].filter(Boolean);
     return `
     <div class="card${hasDetails ? " has-details" : ""}${highlightClass}" data-key="${u.key || ""}" ${hasDetails ? `onclick="toggleDetails(this)"` : ""}>
-        <div class="card-header">
-            <div>
-                <div class="card-court">${u.court || ""}</div>
-                <div class="card-title">
-                    ${u.url ? `<a href="${u.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${u.caseName}</a>` : u.caseName}
-                </div>
-                <div class="card-meta">
-                    <span>Az. ${u.docketNumber || "\u2013"}</span>
-                    <span>${formatDate(u.dateDecided)}</span>
-                </div>
-                ${(u.tags || []).length ? `<div class="card-tags">${u.tags.map(t => `<span class="card-tag">${t}</span>`).join("")}</div>` : ""}
+        <div class="card-date">${formatDate(u.dateDecided)}</div>
+        <div class="card-body">
+            <div class="card-title">
+                ${u.url ? `<a href="${u.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${u.caseName}</a>` : u.caseName}
             </div>
-            ${hasDetails ? `<span class="card-chevron">\u25B6</span>` : ""}
+            <div class="card-meta">${metaParts.join(sep)}</div>
+            ${teaser ? `<div class="card-teaser">${escapeHtml(teaser)}</div>` : ""}
+            ${hasDetails ? `<div class="card-details">
+                ${u.leitsaetze ? `<div class="detail-section"><h3>Leits\u00e4tze</h3>${formatLeitsaetze(u.leitsaetze)}</div>` : ""}
+                ${u.kommentar ? `<div class="detail-section"><h3>Kommentar</h3>${formatLeitsaetze(u.kommentar)}</div>` : ""}
+                ${renderRelated(related)}
+            </div>` : ""}
         </div>
-        ${hasDetails ? `<div class="card-details">
-            ${u.leitsaetze ? `<div class="detail-section"><h3>Leits\u00e4tze</h3>${formatLeitsaetze(u.leitsaetze)}</div>` : ""}
-            ${u.kommentar ? `<div class="detail-section"><h3>Kommentar</h3>${formatLeitsaetze(u.kommentar)}</div>` : ""}
-            ${renderRelated(related)}
-        </div>` : ""}
+        ${hasDetails ? `<span class="card-chevron">▸</span>` : ""}
     </div>`;
 }
 
@@ -136,7 +137,7 @@ function renderList(items) {
     countEl.textContent = `${items.length} Entscheidung${items.length !== 1 ? "en" : ""}`;
 
     if (items.length === 0) {
-        list.innerHTML = '<div class="no-results">Keine Ergebnisse gefunden.</div>';
+        list.innerHTML = '<div class="no-results">Nichts gefunden. Vielleicht mit einem anderen Stichwort?</div>';
         return;
     }
 
@@ -146,14 +147,44 @@ function renderList(items) {
         items.forEach(u => {
             const court = u.court || "Unbekannt";
             if (court !== lastCourt) {
-                html += `<div class="court-group-header">${court}</div>`;
+                html += `<div class="group-header">${court}</div>`;
                 lastCourt = court;
             }
-            html += renderCard(u);
+            html += renderCard(u, true);
         });
         list.innerHTML = html;
+    } else if (currentSort === "topic") {
+        const groups = new Map();
+        const OTHER = "Weitere Entscheidungen";
+        items.forEach(u => {
+            const topics = (u.tags && u.tags.length) ? u.tags : [OTHER];
+            topics.forEach(t => {
+                if (!groups.has(t)) groups.set(t, []);
+                groups.get(t).push(u);
+            });
+        });
+        const names = [...groups.keys()].sort((a, b) =>
+            (a === OTHER) - (b === OTHER) || a.localeCompare(b, "de")
+        );
+        list.innerHTML = names.map(name =>
+            `<div class="group-header">${name}</div>` +
+            groups.get(name).map(u => renderCard(u)).join("")
+        ).join("");
     } else {
-        list.innerHTML = items.map(renderCard).join("");
+        let html = "";
+        // "Zuletzt hinzugefügt" nur in der ungefilterten Standardansicht
+        if (!searchInput.value && !activeTag) {
+            const recent = [...items]
+                .sort((a, b) => (b.dateAdded || "").localeCompare(a.dateAdded || ""))
+                .slice(0, 3);
+            if (recent.length) {
+                html += `<div class="group-header">Zuletzt hinzugefügt</div>`;
+                html += recent.map(u => renderCard(u)).join("");
+                html += `<div class="group-header">Alle Entscheidungen</div>`;
+            }
+        }
+        html += items.map(u => renderCard(u)).join("");
+        list.innerHTML = html;
     }
 }
 
@@ -188,6 +219,31 @@ impressumModal.addEventListener("click", (e) => {
 document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && !impressumModal.hidden) impressumModal.hidden = true;
 });
+
+// Theme toggle (gespeicherte Wahl, sonst Systempräferenz)
+(function () {
+    const root = document.documentElement;
+    const btn = document.getElementById("theme-toggle");
+
+    function applyTheme(theme) {
+        if (theme === "dark") {
+            root.setAttribute("data-theme", "dark");
+        } else {
+            root.removeAttribute("data-theme");
+        }
+        try { localStorage.setItem("theme", theme); } catch (e) {}
+    }
+
+    let saved = null;
+    try { saved = localStorage.getItem("theme"); } catch (e) {}
+    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    applyTheme(saved || (prefersDark ? "dark" : "light"));
+
+    btn.addEventListener("click", () => {
+        const current = root.getAttribute("data-theme") === "dark" ? "dark" : "light";
+        applyTheme(current === "dark" ? "light" : "dark");
+    });
+})();
 
 renderTagFilters();
 renderList(filterAndSort());

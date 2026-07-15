@@ -4,42 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rechtsprechungssammlung | Venture Capital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script>
+        // Theme vor dem ersten Paint setzen, um Aufblitzen zu vermeiden
+        (function () {
+            try {
+                var t = localStorage.getItem("theme");
+                if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+                    document.documentElement.setAttribute("data-theme", "dark");
+                }
+            } catch (e) {}
+        })();
+    </script>
+    <script data-goatcounter="https://cases.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Rechtsprechung<span class="dot">.</span></h1>
-            <p class="subtitle">Eine subjektive Auswahl praxisrelevanter Entscheidungen aus der Beratung von Venture-Capital-Transaktionen und Wachstumsunternehmen. Die Sammlung erhebt keinen Anspruch auf Vollständigkeit, sondern dokumentiert Urteile und Beschlüsse, die mir in der anwaltlichen Praxis begegnet sind. Farblich hervorgehobene Entscheidungen haben aus meiner Sicht besondere Praxisrelevanz.</p>
-            <div class="search-bar">
-                <input type="text" id="search" placeholder="Suche nach Gericht, Aktenzeichen, Stichwort...">
+    <div class="content">
+        <aside class="sidebar">
+            <div class="intro">
+                <h1>Rechtsprechung</h1>
+                <p class="subtitle">Hier sammle ich für private Zwecke Entscheidungen deutscher Gerichte, die mir in meiner Venture-Capital-Praxis begegnet sind. Ich möchte sie vor allem selbst wiederfinden &ndash; die Auswahl ist subjektiv und erhebt keinen Anspruch auf Vollständigkeit. Wo es geht, verlinke ich frei zugängliche Volltexte ohne Paywall. Was mir besonders praxisrelevant erscheint, habe ich am linken Rand markiert.</p>
             </div>
-            <div id="tag-filters" class="tags"></div>
-        </div>
-    </header>
-    <main>
-        <div class="container">
-            <div class="toolbar">
-                <div id="count"></div>
+
+            <div class="controls">
+                <div class="search-bar">
+                    <label class="search-label" for="search">Suche</label>
+                    <span class="search-hint">Gericht, Aktenzeichen oder Stichwort</span>
+                    <input type="text" id="search">
+                </div>
+                <div id="tag-filters" class="tags"></div>
                 <div id="sort-toggle" class="sort-toggle">
                     <button class="sort-btn active" data-sort="date">Neueste zuerst</button>
+                    <button class="sort-btn" data-sort="topic">Nach Thema</button>
                     <button class="sort-btn" data-sort="court">Nach Gericht</button>
                 </div>
+                <div id="count"></div>
             </div>
+
+            <div class="sidebar-bottom">
+                <div class="theme-toggle">
+                    <button type="button" id="theme-toggle" aria-label="Farbschema wechseln" title="Farbschema wechseln">
+                        <!-- Sonne: sichtbar im hellen Modus -->
+                        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <line x1="12" y1="2.5" x2="12" y2="5"></line>
+                            <line x1="12" y1="19" x2="12" y2="21.5"></line>
+                            <line x1="2.5" y1="12" x2="5" y2="12"></line>
+                            <line x1="19" y1="12" x2="21.5" y2="12"></line>
+                            <line x1="5.2" y1="5.2" x2="7" y2="7"></line>
+                            <line x1="17" y1="17" x2="18.8" y2="18.8"></line>
+                            <line x1="5.2" y1="18.8" x2="7" y2="17"></line>
+                            <line x1="17" y1="7" x2="18.8" y2="5.2"></line>
+                        </svg>
+                        <!-- Mond: sichtbar im dunklen Modus -->
+                        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M20.5 14.3 A8.5 8.5 0 1 1 9.7 3.5 A6.8 6.8 0 0 0 20.5 14.3 Z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <p>Ich bin <a href="https://www.linkedin.com/in/lorenzfrey/" target="_blank" rel="noopener">Lorenz Frey</a>, Anwalt bei <a href="https://v14.de" target="_blank" rel="noopener">V14</a>.</p>
+                <p>Erg&auml;nzungen oder Anregungen? Gerne &uuml;ber <a href="https://www.linkedin.com/in/lorenzfrey/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+                <p><a href="#" id="impressum-link">Impressum</a></p>
+            </div>
+        </aside>
+
+        <div class="vertical-line"></div>
+
+        <main class="main">
             <div id="urteile-list"></div>
-        </div>
-    </main>
-    <footer>
-        <div class="container">
-            <p>Zusammengestellt von Lorenz Frey, Partner bei <a href="https://v14.de" target="_blank" rel="noopener">V14</a>. Aufbereitung mit Unterst&uuml;tzung von <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a>.</p>
-            <p>Anregungen willkommen &ndash; gerne via <a href="https://www.linkedin.com/in/lorenzfrey/" target="_blank" rel="noopener">LinkedIn</a>.</p>
-            <div class="footer-links">
-                <a href="#" id="impressum-link">Impressum</a>
-                <span class="footer-sep">&middot;</span>
-                <span>Daten aus <a href="https://www.zotero.org" target="_blank" rel="noopener">Zotero</a></span>
-            </div>
-        </div>
-    </footer>
+        </main>
+    </div>
 
     <!-- Impressum Modal -->
     <div id="impressum-modal" class="modal-overlay" hidden>
