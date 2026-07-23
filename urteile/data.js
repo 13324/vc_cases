@@ -7,7 +7,10 @@ const urteile = [
     "dateAdded": "2024-10-30",
     "docketNumber": "22 W 25/24",
     "url": "",
-    "tags": [],
+    "tags": [
+      "Beurkundungsrecht",
+      "Handelsregister"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "1. Eine nach österreichischem Recht erfolgte notarielle Online-Beglaubigung ist einer deutschen Beglaubigung mittels Videokommunikation nach § 40a BeurkG nicht gleichwertig.\n2. Aus den Gesellschaftsrechtsrichtlinien in der Fassung der Digitalisierungsrichtlinie der EU ergibt sich keine Pflicht zur Anerkennung.",
@@ -21,7 +24,9 @@ const urteile = [
     "dateAdded": "2024-10-29",
     "docketNumber": "BSG Aktenzeichen B 12 BA 1/23 R",
     "url": "",
-    "tags": [],
+    "tags": [
+      "Sozialversicherungsrecht"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "Stellt sich die Tätigkeit einer natürlichen Person nach deren tatsächlichem Gesamtbild als abhängige Beschäftigung dar, ist ein sozialversicherungspflichtiges Beschäftigungsverhältnis nicht deshalb ausgeschlossen, weil Verträge nur zwischen dem Auftraggeber und einer Kapitalgesellschaft bestehen, deren alleiniger Geschäftsführer und Gesellschafter die natürliche Person ist.",
@@ -35,7 +40,11 @@ const urteile = [
     "dateAdded": "2024-07-26",
     "docketNumber": "20 Ca 7325/22",
     "url": "",
-    "tags": [],
+    "tags": [
+      "Arbeitsrecht",
+      "Mitarbeiterbeteiligung",
+      "Vesting"
+    ],
     "highlight": false,
     "related": [
       "7JNKHKHP",
@@ -69,7 +78,10 @@ const urteile = [
     "dateAdded": "2024-07-26",
     "docketNumber": "26 Ta (Kost) 6096/23",
     "url": "",
-    "tags": [],
+    "tags": [
+      "Arbeitsrecht",
+      "Mitarbeiterbeteiligung"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "",
@@ -83,7 +95,9 @@ const urteile = [
     "dateAdded": "2024-02-06",
     "docketNumber": "7 U 6538/20",
     "url": "",
-    "tags": [],
+    "tags": [
+      "Gesellschafterversammlungen"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "1. Eine Stimmabgabe kann nach ihrem Zugang beim Versammlungsleiter nicht mehr widerrufen werden, unabhängig davon, ob ein wichtiger Grund für die Änderung des Abstimmungsverhaltens vorliegt, da es sich bei der Stimmabgabe um eine Willenserklärung i.S.d. § 130 Abs. 1 BGB handelt und deren Widerruf nach Zugang beim Erklärungsempfänger gem. § 130 Abs. 1 S. 2 BGB grundsätzlich nicht möglich ist.\n2. Da es sich bei § 873 Abs. 2, § 929 BGB um eine Ausnahmeregelung zu § 130 Abs. 1 BGB handelt, ist diese eng auszulegen und ihr Anwendungsbereich nicht auf andere Rechtsgeschäfte auszudehnen. Sie gilt auch nur für das dingliche Vollzugsgeschäft, nicht aber für die zugrunde liegende schuldrechtliche Verpflichtung.",
@@ -91,13 +105,15 @@ const urteile = [
   },
   {
     "key": "DWKJNIQ5",
-    "caseName": "Schadensersatz wegen Verletzung der Treuepflicht des GmbH-Gesellschafters",
+    "caseName": "Verhältnis von M&A Beraterverträgen zum gesetzlichen Maklervertrag",
     "court": "LG Frankfurt a. M.",
     "dateDecided": "2023-10-23",
     "dateAdded": "2024-01-08",
     "docketNumber": "3-02 O 56/22",
     "url": "",
-    "tags": [],
+    "tags": [
+      "M&A Beraterverträge"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "",
@@ -111,26 +127,12 @@ const urteile = [
     "dateAdded": "2024-01-05",
     "docketNumber": "V ZR 77/22",
     "url": "",
-    "tags": [],
-    "highlight": false,
-    "related": [],
-    "leitsaetze": "Der Verkäufer eines bebauten Grundstücks, der dem Käufer Zugriff auf einen Datenraum mit Unterlagen und Informationen zu der Immobilie gewährt, erfüllt hierdurch seine Aufklärungspflicht nur, wenn und soweit er aufgrund der Umstände die berechtigte Erwartung haben kann, dass der Käufer durch Einsichtnahme in den Datenraum Kenntnis von dem offenbarungspflichtigen Umstand erlangen wird.",
-    "kommentar": ""
-  },
-  {
-    "key": "37CY63T4",
-    "caseName": "Ausnutzung einer Bis-zu-Kapitalerhöhung in mehreren Tranchen",
-    "court": "OLG München",
-    "dateDecided": "2009-09-22",
-    "dateAdded": "2023-10-09",
-    "docketNumber": "31 Wx 110/09",
-    "url": "",
     "tags": [
-      "Kapitalerhöhung"
+      "Due Diligence"
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "Ein Beschluss der Hauptversammlung über eine Kapitalerhöhung nach § 182 AktG, der einen Höchstbetrag bestimmt, kann vom Vorstand nicht zeitlich unbegrenzt in mehreren Tranchen durchgeführt werden.",
+    "leitsaetze": "Der Verkäufer eines bebauten Grundstücks, der dem Käufer Zugriff auf einen Datenraum mit Unterlagen und Informationen zu der Immobilie gewährt, erfüllt hierdurch seine Aufklärungspflicht nur, wenn und soweit er aufgrund der Umstände die berechtigte Erwartung haben kann, dass der Käufer durch Einsichtnahme in den Datenraum Kenntnis von dem offenbarungspflichtigen Umstand erlangen wird.",
     "kommentar": ""
   },
   {
@@ -141,7 +143,9 @@ const urteile = [
     "dateAdded": "2023-09-13",
     "docketNumber": "31 Wx 457/11",
     "url": "",
-    "tags": [],
+    "tags": [
+      "Genehmigtes Kapital"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "1. Zum genehmigten Kapital bei einer GmbH.\n\n2. Die Entscheidung über den Ausschluss des Bezugsrechts der Gesellschafter kann dem Geschäftsführer übertragen werden.\n\n3. Der Geschäftsführer kann auch zur Anpassung der Satzung ermächtigt werden.",
@@ -155,24 +159,13 @@ const urteile = [
     "dateAdded": "2023-09-12",
     "docketNumber": "22 W 39/22",
     "url": "",
-    "tags": [],
+    "tags": [
+      "Beurkundungsrecht",
+      "Genehmigtes Kapital"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "Die Pflicht zur Einreichung einer Gesellschafterliste nach § 40 Abs. 2 GmbHG ergibt sich nicht allein deshalb, weil der Notar die Anmeldung der Kapitalerhöhung oder die Übernahmeerklärung beglaubigt.",
-    "kommentar": ""
-  },
-  {
-    "key": "QK9SKNNY",
-    "caseName": "Keine unmittelbare Bestimmung des Anteilswertes allein anhand des Börsenwertes",
-    "court": "OLG Düsseldorf",
-    "dateDecided": "2022-11-28",
-    "dateAdded": "2023-09-12",
-    "docketNumber": "26 W 4/21",
-    "url": "",
-    "tags": [],
-    "highlight": false,
-    "related": [],
-    "leitsaetze": "1. Die unmittelbare Bestimmung des Anteilswertes allein anhand des Börsenwertes scheidet aus, wenn der Börsenkurs nur eingeschränkt aussagekräftig war.\n2. Die Wahl der Bewertungsmethode im gerichtlichen Spruchverfahren obliegt grundsätzlich dem Tatrichter im Rahmen seines Schätzermessens. Weder die Aktionäre noch die Antragsgegnerin haben einen Anspruch auf die Anwendung einer konkreten Bewertungsmethode oder Beibehaltung der durch die Bewerterin/Prüferin bzw. des Gerichts erster Instanz gewählten Methode – hier: der Ertragswertmethode.\n3. Der Umstand, dass Aktien der zu bewertenden Gesellschaft nur im Freiverkehr gehandelt wurden, steht der Heranziehung des Börsenkurses nicht entgegen, wenn die Aktien auf einem besonderen Teilsegment des Freiverkehrs – hier: im Segment „Entry Standard“ der Börse Frankfurt a. M. – mit einem den gesetzlichen Publizitäts- und Transparenzvorschriften vergleichbaren Informationsregime gehandelt wurden und konkrete Informationsdefizite nicht geltend gemacht sind.\n4. Ob der Börsenkurs als Ergebnis einer effektiven Informationsbewertung tatsächlich den Unternehmenswert widerspiegelt, lässt sich nicht allein mithilfe der für die Frage der Marktenge entwickelten Kriterien des § 5 Abs. 4 WpÜG-AV beurteilen, vielmehr bedarf es einer ergänzenden Beurteilung der Liquidität. Mit der Liquiditätsanalyse sind insbesondere das Handelsvolumen pro Tag, die Relation aus Tagen mit Handel zu möglichen Handelstagen, der Streubesitz, die Handelsquote sowie die durchschnittliche relative Geld-Brief-Spanne gemessen an Durchschnittswerten der Indizes für den jeweiligen Zeitraum in den Blick zu nehmen.\n5. Steht schon die nur eingeschränkte Liquidität – hier: sowohl im Drei-Monats-Zeitraum vor Bekanntmachung des Erwerbsangebots der Hauptaktionärin mit dem erklärten Ziel, die Kapitalbeteiligung auf 95 % aufzustocken, als auch im Drei-Monats-Zeitraum vor Bekanntgabe des beabsichtigten Squeeze-out – der Annahme einer Aussagekraft des Börsenkurses entgegen, kommt es auf die Analyse weiterer Aspekte der konkreten Informationsverarbeitung nicht an.\n6. Für die Bestimmung von künftigen Wechselkursen gibt es derzeit keinen überlegenen theoretischen Ansatz. Annahmen zu erwarteten künftigen Wechselkursen sind für die gerichtliche Schätzung des Unternehmenswertes geeignet, wenn sie aus einer in den Wirtschaftswissenschaften anerkannten und gebräuchlichen Prognosemethode – hier: der Kassakursmethode (sog. naive Prognose) – abgeleitet und plausibel sind.\n7. Der Ansatz der Marktrisikopräemie mit 5,5 % nach Steuern ist bezogen auf den Bewertungsstichtag 30.6.2016 nicht zu beanstanden.\n8. Vorerwerbspreise sind grundsätzlich nur im Rahmen von Plausibilitäts- und Kontrollerwägungen relevant.",
     "kommentar": ""
   },
   {
@@ -183,7 +176,9 @@ const urteile = [
     "dateAdded": "2023-08-16",
     "docketNumber": "8 AZR 453/21",
     "url": "",
-    "tags": [],
+    "tags": [
+      "Wettbewerbsverbot"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "Schließt der Arbeitnehmer eine Vereinbarung über die Gewährung (beschränkter) Aktienerwerbsrechte nicht mit seinem Arbeitgeber, sondern mit einem Dritten, ggf. einer (Konzern-)Obergesellschaft, sind die dem Arbeitnehmer gewährten Rechte bzw. die nach Wegfall von Beschränkungen zugeteilten Aktien grundsätzlich nicht Teil der „vertragsmäßigen Leistungen“ iSd. § 74 Abs. 2 HGB und deshalb bei der Berechnung der gesetzlichen Mindestkarenzentschädigung nicht zu berücksichtigen.",
@@ -197,7 +192,9 @@ const urteile = [
     "dateAdded": "2023-08-15",
     "docketNumber": "12 U 54/21",
     "url": "",
-    "tags": [],
+    "tags": [
+      "Insolvenzrecht"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "1. Bei einem Start-Up-Unternehmen müssen im Rahmen der Überschuldungsprüfung die Anforderungen an die Fortführungsprognose im Lichte der Besonderheiten derartiger Unternehmen betrachtet werden. Ausreichend – aber auch erforderlich – ist, dass das Unternehmen mit überwiegender, d.h. mehr als 50-prozentiger Wahrscheinlichkeit in der Lage ist, seine im Prognosezeitraum fälligen Zahlungsverpflichtungen aufgrund der Bereitstellung oder Zusage externer Finanzierungsmittel zu decken.\n2. Eine erfolgversprechende Marktentwicklung stellt einen Umstand dar, aus dem sich eine positive Fortführungsprognose ergeben kann. Das setzt eine nachvollziehbare, realistische Finanzplanung mit einem operativen Konzept voraus, das die geplante Geschäftsausrichtung erfolgversprechend erscheinen lässt. Die Zusage eines finanzkräftigen Investors, der das Unternehmen bereits in der Vergangenheit mit Darlehen finanziell unterstützt hat, vermag eine positive Fortführungsprognose jedenfalls nur dann zu begründen, wenn dieser die Bereitstellung weiterer Mittel von der Vorlage einer aktuellen, nachvollziehbaren und realistischen Planung abhängig gemacht hat und aufgrund dessen bis zu einer erfolgversprechenden Marktentwicklung die Finanzierung durch weitere Darlehen des Investors gesichert erscheint.\n3. Fehlt es hieran und hängt die Bereitstellung weiterer finanzieller Mittel in jedem Einzelfall allein vom Willen des Geldgebers ab, kann sich der Geschäftsführer nicht darauf verlassen, dass die Finanzierung bis zur erfolgreichen Etablierung des Unternehmens am Markt gesichert ist.",
@@ -212,7 +209,8 @@ const urteile = [
     "docketNumber": "19 OH 1/21",
     "url": "",
     "tags": [
-      "Beurkundungsrecht"
+      "Beurkundungsrecht",
+      "Gebührenrecht"
     ],
     "highlight": false,
     "related": [],
@@ -227,7 +225,9 @@ const urteile = [
     "dateAdded": "2023-04-20",
     "docketNumber": "1 U 311/20",
     "url": "",
-    "tags": [],
+    "tags": [
+      "M&A Beraterverträge"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "Zu den Voraussetzungen eines Erfolgshonorars bei einer M&A-Beratung.",
@@ -246,7 +246,7 @@ const urteile = [
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "",
+    "leitsaetze": "Eine Kaskadengründung, bei der das eingezahlte Kapital der Muttergesellschaft sogleich in die Gründung einer Tochtergesellschaft investiert wird, ist grundsätzlich zulässig, solange dem Gebot wertgleicher Deckung genügt wird. \n\nDie Geschäftsführererklärung über die Einlagenerbringung ist in diesem Fall unrichtig und kann vom Registergericht von Amts wegen beanstandet werden, wenn im Zeitpunkt des Eingangs der Erklärung beim Registergericht ersichtlich eine Unterdeckung dadurch entstanden ist, dass der an die Stelle einer Bareinlage tretende Geschäftsanteil an der Tochtergesellschaft in seinem Wert bereits – etwa durch nicht anderweit kompensierte Gründungskosten der bereits eingetragenen Tochtergesellschaft – geschmälert ist.",
     "kommentar": ""
   },
   {
@@ -257,7 +257,9 @@ const urteile = [
     "dateAdded": "2026-02-17",
     "docketNumber": "32 Wx 140/20 Kost",
     "url": "https://beck-online.beck.de/Dokument?vpath=bibdata%2Fzeits%2Fbwnotz%2F2020%2Fcont%2Fbwnotz.2020.160.1.htm&pos=1&hlwords=on",
-    "tags": [],
+    "tags": [
+      "Beurkundungsrecht"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "",
@@ -289,7 +291,8 @@ const urteile = [
     "docketNumber": "22 W 36/22",
     "url": "https://beck-online.beck.de/Dokument?pos=2&vpath=bibdata%2Fents%2Fbeckrs%2F2022%2Fcont%2Fbeckrs.2022.23992.htm&hlwords=on",
     "tags": [
-      "Handelsregister"
+      "Handelsregister",
+      "Nachweise"
     ],
     "highlight": false,
     "related": [],
@@ -320,7 +323,9 @@ const urteile = [
     "dateAdded": "2026-02-17",
     "docketNumber": "7 U 1995/21",
     "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2023-N-6571?hl=true",
-    "tags": [],
+    "tags": [
+      "Gesellschafterversammlungen"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "1. Die Regelung des § 121 Abs. 5 S. 1 AktG (analog für die GmbH), wonach mangels abweichender Satzungsregelung die Hauptversammlung am Sitz der Gesellschaft stattfinden soll, bezweckt, die Gesellschafter vor einer willkürlichen Wahl des Versammlungsortes und einer daraus folgenden Beeinträchtigung ihres Teilnahmerechtes zu schützen. (redaktioneller Leitsatz)\n\n2. Zumindest in einer Gesellschaft mit einem überschaubaren Gesellschafterkreis darf ein Ort gewählt werden, von dem von vornherein feststeht, dass er die Teilnahme nicht erschwert, weil ihn die Gesellschafter leichter als den Sitz der Gesellschaft erreichen können. Des Weiteren darf von der Sollbestimmung abgewichen werden, wenn am Sitz der Gesellschaft kein geeignetes Versammlungslokal vorhanden ist oder die Verkehrsverbindung dorthin gestört ist. (redaktioneller Leitsatz)\n\n3. Der Anfechtung steht nicht entgegen, dass der fehlerhafte Versammlungsort keine Auswirkung auf das Beschlussergebnis hatte. Für die Anfechtbarkeit genügt die Relevanz des Fehlers für das Mitwirkungs- oder Partizipationsrecht entsprechend § 243 Abs. 4 AktG; insoweit ist der Versammlungsort für das Teilhaberecht eines Gesellschafters von grundsätzlicher Bedeutung. (redaktioneller Leitsatz)",
@@ -350,7 +355,9 @@ const urteile = [
     "dateAdded": "2026-02-18",
     "docketNumber": "14 U 212/08",
     "url": "https://beck-online.beck.de/Dokument?vpath=bibdata%2Fzeits%2Fnzg%2F2010%2Fcont%2Fnzg.2010.303.1.htm&anchor=Y-300-Z-NZG-B-2010-S-303",
-    "tags": [],
+    "tags": [
+      "Gesellschafterversammlungen"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "",
@@ -364,7 +371,9 @@ const urteile = [
     "dateAdded": "2026-02-18",
     "docketNumber": "7 U 2107/18",
     "url": "https://beck-online.beck.de/Dokument?vpath=bibdata%2Fents%2Fbeckrs%2F2018%2Fcont%2Fbeckrs.2018.27810.htm",
-    "tags": [],
+    "tags": [
+      "Wettbewerbsverbot"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "",
@@ -378,8 +387,12 @@ const urteile = [
     "dateAdded": "2026-02-20",
     "docketNumber": "10 AZR 67/24",
     "url": "https://beck-online.beck.de/Dokument?vpath=bibdata%2Fzeits%2Fnza%2F2025%2Fcont%2Fnza.2025.927.1.htm&pos=1&hlwords=on",
-    "tags": [],
-    "highlight": false,
+    "tags": [
+      "Arbeitsrecht",
+      "Mitarbeiterbeteiligung",
+      "Vesting"
+    ],
+    "highlight": true,
     "related": [
       "7JNKHKHP",
       "JQ2CCI3A"
@@ -395,24 +408,12 @@ const urteile = [
     "dateAdded": "2026-02-23",
     "docketNumber": "2 AZR 68/24",
     "url": "",
-    "tags": [],
+    "tags": [
+      "Nachweise"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "",
-    "kommentar": ""
-  },
-  {
-    "key": "HVZ75UCD",
-    "caseName": "Einwurf-Einschreiben - kein Anscheinsbeweis für tatsächlichen Zugang",
-    "court": "LAG Hamburg",
-    "dateDecided": "2025-07-14",
-    "dateAdded": "2026-02-23",
-    "docketNumber": "4 SLa 26/24",
-    "url": "https://beck-online.beck.de/Dokument?vpath=bibdata%2Fents%2Fbeckrs%2F2025%2Fcont%2Fbeckrs.2025.27123.htm",
-    "tags": [],
-    "highlight": false,
-    "related": [],
-    "leitsaetze": "Der Beweis des ersten Anscheins greift bei typischen Geschehensabläufen ein, also in Fällen, in denen ein bestimmter Sachverhalt feststeht, der nach der allgemeinen Lebenserfahrung auf eine bestimmte Ursache oder auf einen bestimmten Ablauf als maßgeblich für den Eintritt eines bestimmten Erfolgs hinweist.\n\nSind auf der Reproduktion des Zustellbelegs bei einem Einwurf-Einschreiben die Art der Sendung (Einschreiben Einwurf), die Sendungsnummer, die Postleitzahl und der Zustellbezirk erfasst, stehen unter der Kategorie Empfangsberechtigter zum Ankreuzen die Möglichkeiten „Empf“, „EmpfBev“ und „And.EmpfBer“ zur Verfügung und steht hinter dem Titel Empfangsbestätigung der Text „Ich habe die o.g. Sendung dem Empfangsberechtigten übergeben, bzw. das Einschreiben Einwurf in die Empfangsvorrichtung des Empfängers eingelegt“, streitet bei Übersendung eines Schriftstücks per Einwurf-Einschreiben und gleichzeitiger Vorlage des Einlieferungsbelegs und der Reproduktion des Auslieferungsbelegs nicht der Beweis des ersten Anscheins für den Zugang dieses Schriftstücks bei dem Empfänger.",
     "kommentar": ""
   },
   {
@@ -424,7 +425,8 @@ const urteile = [
     "docketNumber": "II ZB 6/23",
     "url": "https://openjur.de/u/2476973.html",
     "tags": [
-      "Beurkundungsrecht"
+      "Beurkundungsrecht",
+      "Notargebühren"
     ],
     "highlight": false,
     "related": [],
@@ -439,11 +441,12 @@ const urteile = [
     "dateAdded": "2026-02-25",
     "docketNumber": "22 W 4/25",
     "url": "https://beck-online.beck.de/Dokument?VPath=bibdata%2Fzeits%2Ffgprax%2F2025%2Fcont%2Ffgprax.2025.69.1.htm&ReadableType=Parallelfundstellen&HLWords=on&JumpType=SingleHitJump&JumpWords=%2BKG%252c%2B20.02.2025%2B-%2B22%2BW%2B4%252f25%2B&Readable=Suche%2Bnach%2BGericht%2BDatum%2BAktenzeichen%253a%2BKG%2B20.02.2025%2B22%2BW%2B4%2526%252347%253b25%2Bnur%2Bin%2Bmeinen%2BModulen",
-    "tags": [],
-    "highlight": false,
-    "related": [
-      "W8AL7L82"
+    "tags": [
+      "Gesellschafterversammlungen",
+      "Nachweise"
     ],
+    "highlight": false,
+    "related": [],
     "leitsaetze": "",
     "kommentar": ""
   },
@@ -455,21 +458,25 @@ const urteile = [
     "dateAdded": "2026-02-25",
     "docketNumber": "2x W 74/25",
     "url": "https://beck-online.beck.de/Dokument?VPath=bibdata%2Fents%2Fbeckrs%2F2025%2Fcont%2Fbeckrs.2025.34037.htm&ReadableType=Parallelfundstellen&HLWords=on&JumpType=SasJump&JumpWords=%2B2x%2BW%2B74%252f25%252c%2B2%2BWx%2B74%252f25&Readable=Keine%2BTreffer%2Bf%25c3%25bcr%2Bdie%2BSuche%2Bnach%253a%2B%2526quot%253b%253cb%253e%2B2x%2BW%2B74%252f25%252c%2B2%2BWx%2B74%252f25%253c%252fb%253e%2526quot%253b.%253cbr%253eDie%2BSuche%2Bnach%2Bdem%2BAktenzeichen%2B%2526quot%253b%253cb%253e2x%2BW%2B74%252f25%253c%252fb%253e%2526quot%253b%2Bergab%2Bfolgenden%2Beindeutigen%2BTreffer%253a",
-    "tags": [],
+    "tags": [
+      "Registerrecht"
+    ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "1.Bei Einreichung der Gesellschafterliste gemäß § 40 Abs. 1 GmbHG fungiert das Registergericht im Ausgangspunkt nicht als prüfende Stelle, sondern als „Verwahrstelle“, welche die Gesellschafterliste in den Registerordner aufnimmt und verwahrt. Dabei unterliegt die Gewährleistung der inhaltlichen Richtigkeit der Gesellschafterliste in erster Linie der haftungsbewehrten Verantwortung des Einreichenden.\n\n2.Dem Registergericht steht grundsätzlich lediglich ein formelles Prüfungsrecht zu; nur in Ausnahmefällen, wenn die Unrichtigkeit für das Registergericht (ohne weitere Ermittlungen) offensichtlich ist (Evidenzfälle), darf das Registergericht die Aufnahme einer formell ordnungsgemäß eingereichten Liste ablehnen. Die Funktion der Gesellschafterliste als Rechtsscheinträger gemäß § 16 GmbHG gebietet die zügige Aufnahme einer veränderten Gesellschafterliste in den Registerordner, weil die Eintragung in die im Handelsregister aufgenommene Gesellschafterliste zwar nicht die materielle Rechtsstellung des Gesellschafters berührt, jedoch nach § 16 Abs. 1 Satz 1 GmbHG Voraussetzung für die Legitimation als solcher gegenüber der Gesellschaft ist.\n\n3.Die Beschränkung der inhaltlichen Prüfungskompetenz des Registergerichts auf Ausnahmefälle gilt nicht nur bei der Einreichung gemäß § 40 Abs. 2 GmbHG, sondern im Grundsatz auch bei der Einreichung gemäß § 40 Abs. 1 GmbHG. Bei der Einreichung gemäß § 40 Abs. 1 GmbHG ist es jedoch denkbar, die inhaltliche Prüfungskompetenz auf Fälle nahezu sicherer Kenntnis von der Unrichtigkeit auszuweiten, soweit diese (nahezu sichere) Kenntnis ohne weitere Ermittlungen feststellbar ist.",
+    "leitsaetze": "Bei Einreichung der Gesellschafterliste gemäß § 40 Abs. 1 GmbHG fungiert das Registergericht im Ausgangspunkt nicht als prüfende Stelle, sondern als „Verwahrstelle“, welche die Gesellschafterliste in den Registerordner aufnimmt und verwahrt. Dabei unterliegt die Gewährleistung der inhaltlichen Richtigkeit der Gesellschafterliste in erster Linie der haftungsbewehrten Verantwortung des Einreichenden.\n\nDem Registergericht steht grundsätzlich lediglich ein formelles Prüfungsrecht zu; nur in Ausnahmefällen, wenn die Unrichtigkeit für das Registergericht (ohne weitere Ermittlungen) offensichtlich ist (Evidenzfälle), darf das Registergericht die Aufnahme einer formell ordnungsgemäß eingereichten Liste ablehnen. Die Funktion der Gesellschafterliste als Rechtsscheinträger gemäß § 16 GmbHG gebietet die zügige Aufnahme einer veränderten Gesellschafterliste in den Registerordner, weil die Eintragung in die im Handelsregister aufgenommene Gesellschafterliste zwar nicht die materielle Rechtsstellung des Gesellschafters berührt, jedoch nach § 16 Abs. 1 Satz 1 GmbHG Voraussetzung für die Legitimation als solcher gegenüber der Gesellschaft ist.\n\nDie Beschränkung der inhaltlichen Prüfungskompetenz des Registergerichts auf Ausnahmefälle gilt nicht nur bei der Einreichung gemäß § 40 Abs. 2 GmbHG, sondern im Grundsatz auch bei der Einreichung gemäß § 40 Abs. 1 GmbHG. Bei der Einreichung gemäß § 40 Abs. 1 GmbHG ist es jedoch denkbar, die inhaltliche Prüfungskompetenz auf Fälle nahezu sicherer Kenntnis von der Unrichtigkeit auszuweiten, soweit diese (nahezu sichere) Kenntnis ohne weitere Ermittlungen feststellbar ist.",
     "kommentar": ""
   },
   {
     "key": "KMNTQKKT",
-    "caseName": "OLG Frankfurt a. M., 03.04.2025 - 5 U 123/23",
+    "caseName": "Kausalitätserfordernis bei M&A Beraterverträgen",
     "court": "OLG Frankfurt a. M.",
     "dateDecided": "2025-04-03",
     "dateAdded": "2026-03-31",
     "docketNumber": "5 U 123/23",
     "url": "https://beck-online.beck.de/Dokument?vpath=bibdata%2Fents%2Fbeckrs%2F2025%2Fcont%2Fbeckrs.2025.37565.htm&anchor=Y-300-Z-BECKRS-B-2025-N-37565",
-    "tags": [],
+    "tags": [
+      "M&A Beraterverträge"
+    ],
     "highlight": false,
     "related": [],
     "leitsaetze": "",
@@ -477,16 +484,34 @@ const urteile = [
   },
   {
     "key": "N9P7VPFT",
-    "caseName": "Kein Anscheinsbeweis beim Einwurfeinschreiben",
+    "caseName": "Kein Anscheinsbeweis beim neuen Einwurfeinschreiben",
     "court": "BAG",
     "dateDecided": "2026-05-07",
     "dateAdded": "2026-07-10",
     "docketNumber": "2 AZR 184/25",
     "url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-184-25/",
-    "tags": [],
-    "highlight": false,
+    "tags": [
+      "Nachweise"
+    ],
+    "highlight": true,
     "related": [],
     "leitsaetze": "",
+    "kommentar": ""
+  },
+  {
+    "key": "FG9X7PGG",
+    "caseName": "Rein kapitalistische Minderheitsbeteiligung und Wettbewerbsverbot",
+    "court": "OLG Stuttgart",
+    "dateDecided": "2017-03-15",
+    "dateAdded": "2026-07-23",
+    "docketNumber": "14 U 3/14",
+    "url": "https://openjur.de/u/2339430.html",
+    "tags": [
+      "Wettbewerbsverbot"
+    ],
+    "highlight": false,
+    "related": [],
+    "leitsaetze": "Rein kapitalistische Minderheitsbeteiligungen eines Gesellschafter-Geschäftsführers an einer Konkurrenzgesellschaft ohne Einfluss auf deren Geschäftsführung, ohne Tätigkeit im Unternehmen und ohne Möglichkeit, dieses zu beherrschen oder Einfluss auf unternehmerische Entscheidungen zu nehmen, sind im Regelfall unbedenklich und von der sachlichen Reichweite eines Wettbewerbsverbots des Gesellschafter-Geschäftsführers nicht umfasst.\n\nEine gesellschaftsvertragliche Regelung oder eine Regelung im Anstellungsvertrag, die ein Wettbewerbsverbot des Gesellschafter-Geschäftsführers vorsieht, muss im Lichte von Art. 12 Abs. 1 GG ausgelegt werden; sie erfasst ihrem rechtlich unbedenklichen Sinn und Zweck nach, die Gesellschaft vor der Aushöhlung von innen her zu schützen, im Regelfall nicht den rein kapitalistischen Erwerb einer Minderheitsbeteiligung an einem Konkurrenzunternehmen und ist ggf. entsprechend einschränkend auszulegen.\n\nZu den Anforderungen an die Darlegung eines Schadens, der Wahrscheinlichkeit eines Schadens bzw. gezogenen Vorteilen, soweit Ansprüche auf Schadensersatz, Auskunft, Vorteilsherausgabe sowie ein Eintrittsrecht analog § 113 HGB auf den Verstoß gegen ein gesellschaftsrechtliches Wettbewerbsverbot gestützt werden\n\nEinem Minderheitsgesellschafter stehen eigene Ansprüche aus der Verletzung eines gesellschaftsvertraglichen Wettbewerbsverbots durch einen Mitgesellschafter nur dann zu, wenn er einen über den durch die Minderung des Gesellschaftsvermögens im Wert seines Geschäftsanteils eingetretenen Reflexschaden hinausgehenden eigenen Schaden erlitten hat.\n\nEine im Gesellschaftsvertrag enthaltene Klausel, wonach eine anlässlich des Ausscheidens eines Gesellschafters zu leistende Abfindung nach dem im sog. \"Stuttgarter Verfahren\" ermittelten Wert seines Anteils berechnet wird, ist grundsätzlich wirksam und für die Parteien verbindlich.\n\nZu der Frage, unter welchen Voraussetzungen ein Schiedsgutachten zur Ermittlung des Anteilswertes nach dem \"Stuttgarter Verfahren\" offenbar unrichtig im Sinne von § 319 Abs. 1 Satz 1 BGB ist und welche Umstände bei der Bewertung nach dem Stuttgarter Verfahren im Einzelnen zu berücksichtigen sind.\n\nEine gesellschaftsvertragliche Abfindungsregelung, die an eine Anteilsbewertung nach dem Stuttgarter Verfahren anknüpft, kann unanwendbar und der Abfindungsbetrag anzupassen sein, wenn der sich nach dem Stuttgarter Verfahren ergebende Anteilswert vom tatsächlichen Verkehrswert des Anteils erheblich abweicht. Das gilt auch dann, wenn der tatsächliche Verkehrswert deutlich niedriger liegt als der nach Stuttgarter Verfahren ermittelte Anteilswert.\n\nZur Berechnung des tatsächlichen Wertes eines Gesellschaftsanteils auf der Grundlage des Ertragswertverfahrens",
     "kommentar": ""
   }
 ];
