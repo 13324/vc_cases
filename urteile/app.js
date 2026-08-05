@@ -112,8 +112,10 @@ function renderCard(u, omitCourt = false) {
     const metaParts = [
         omitCourt ? "" : (u.court || ""),
         u.docketNumber ? `Az. ${u.docketNumber}` : "",
-        ...(u.tags || [])
     ].filter(Boolean);
+    const tagsHtml = (u.tags || []).length
+        ? `<div class="card-tags">${u.tags.map(t => `<span class="card-tag">${escapeHtml(t)}</span>`).join("")}</div>`
+        : "";
     return `
     <div class="card${hasDetails ? " has-details" : ""}${highlightClass}" data-key="${u.key || ""}" ${hasDetails ? `onclick="toggleDetails(this)"` : ""}>
         <div class="card-date">${formatDate(u.dateDecided)}</div>
@@ -122,6 +124,7 @@ function renderCard(u, omitCourt = false) {
                 ${u.url ? `<a href="${u.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${u.caseName}</a>` : u.caseName}
             </div>
             <div class="card-meta">${metaParts.join(sep)}</div>
+            ${tagsHtml}
             ${teaser ? `<div class="card-teaser">${escapeHtml(teaser)}</div>` : ""}
             ${hasDetails ? `<div class="card-details">
                 ${u.leitsaetze ? `<div class="detail-section"><h3>Leits\u00e4tze</h3>${formatLeitsaetze(u.leitsaetze)}</div>` : ""}

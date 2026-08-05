@@ -358,6 +358,23 @@ h1 {
     margin: 0 0.35rem;
 }
 
+/* --- Schlagworte in der Zeile: dezenter Kasten, ruhiger als die Filter-Pills --- */
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.4rem;
+}
+
+.card-tag {
+    display: inline-block;
+    padding: 0.05rem 0.45rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--secondary);
+    border: 1px solid var(--border);
+}
+
 /* --- Leitsatz-Vorschau in der Zeile --- */
 .card-teaser {
     font-size: 0.95rem;

@@ -1,10 +1,8 @@
-# Python tooling (not part of the website)
-urteile/update.py
-urteile/fix_all.py
-urteile/fix_data.json
-urteile/extract_leitsaetze.py
-urteile/fix_leitsaetze.py
-deploy.sh
+# Build-Pipeline (update.py, deploy.sh, fix_*.py) wird jetzt mitversioniert
+# und liegt auf dem main-Branch — die ausgelieferte Seite steckt im pages-Branch.
+
+# Zugangsdaten (niemals committen!)
+.secrets.env
 
 # Claude Code
 .claude/
