@@ -559,33 +559,56 @@ h1 {
 
 /* --- Responsive --- */
 @media (max-width: 900px) {
-    .sidebar {
-        position: relative;
-        width: 100%;
+    /* Mobile: erst das Werkzeug (Titel, Suche, Filter, Entscheidungen),
+       danach der Fließtext (Intro-Absatz, Bio). Sidebar und Intro werden per
+       display:contents aufgelöst, damit ihre Teile direkte Flex-Kinder von
+       .content werden und sich per order frei sortieren lassen. */
+    .content {
         padding: 1.5rem;
-        overflow-y: visible;
+        padding-bottom: 2.5rem;
     }
 
-    .sidebar-bottom {
-        margin-top: 1.75rem;
-        padding-top: 0;
+    .sidebar,
+    .intro {
+        display: contents;
     }
 
     .vertical-line {
         display: none;
     }
 
-    .main {
-        margin-left: 0;
-        width: 100%;
-        max-width: none;
-        padding: 1.5rem;
-        padding-bottom: 3rem;
-        border-top: 1px solid var(--border);
+    h1 {
+        order: 1;
+        margin-bottom: 0;
     }
 
     .controls {
+        order: 2;
+        margin-top: 1.25rem;
+    }
+
+    .main {
+        order: 3;
+        margin-left: 0;
+        width: 100%;
+        max-width: none;
+        padding: 0;
+        margin-top: 1.75rem;
+    }
+
+    .subtitle {
+        order: 4;
+        max-width: none;
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border);
+    }
+
+    .sidebar-bottom {
+        order: 5;
+        max-width: none;
         margin-top: 1.5rem;
+        padding-top: 0;
     }
 
     .card {
