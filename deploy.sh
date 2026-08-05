@@ -30,7 +30,14 @@ else
     MSG=$(PYTHONUTF8=1 python urteile/gen_commit_msg.py)
     git commit -m "$MSG"
     git push "$REPO_URL" main
-    echo "main gepusht."
+    echo "main gepusht (Codeberg)."
+fi
+
+# GitHub-Mirror: main immer nach origin spiegeln (reines Archiv, KEIN GitHub Pages).
+if git push origin main 2>/dev/null; then
+    echo "main gespiegelt (GitHub)."
+else
+    echo "Hinweis: GitHub-Mirror-Push fehlgeschlagen (Auth/Netz?) - Codeberg ist maßgeblich."
 fi
 
 echo ""
