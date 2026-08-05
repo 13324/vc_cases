@@ -45,7 +45,9 @@ fi
 cp urteile/index.html urteile/app.js urteile/style.css urteile/data.js "$TMP"/
 (
     cd "$TMP"
-    git add -A
+    # Nur die vier Seiten-Dateien stagen (kein -A: sonst landen z.B. vom
+    # Windows-Credential-Manager erzeugte Sentinel-Dateien im pages-Branch).
+    git add index.html app.js style.css data.js
     if git diff --cached --quiet; then
         echo "pages unveraendert."
     else
