@@ -446,6 +446,20 @@ h1 {
     max-width: 42em;
 }
 
+/* Nummerierte Leitsätze/Kommentare: Nummer links, Text hängend eingerückt */
+.detail-section p.ls-num {
+    display: flex;
+    gap: 0.5em;
+    align-items: baseline;
+}
+
+.detail-section p.ls-num .ls-marker {
+    flex: 0 0 auto;
+    min-width: 1.5em;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+}
+
 .related-link {
     display: inline-block;
     font-size: 0.9rem;

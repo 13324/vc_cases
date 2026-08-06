@@ -70,9 +70,15 @@ function escapeHtml(str) {
 
 function formatLeitsaetze(text) {
     if (!text) return "";
-    return text.split("\n").filter(l => l.trim()).map(l =>
-        `<p>${escapeHtml(l.trim())}</p>`
-    ).join("");
+    return text.split("\n").filter(l => l.trim()).map(l => {
+        const line = l.trim();
+        // Nummerierte Zeilen (z.B. "1.", "2)", "a)") mit hängendem Einzug formatieren
+        const m = line.match(/^(\d{1,3}[a-z]?[.)]|[a-z]\))\s+([\s\S]+)$/i);
+        if (m) {
+            return `<p class="ls-num"><span class="ls-marker">${escapeHtml(m[1])}</span><span>${escapeHtml(m[2])}</span></p>`;
+        }
+        return `<p>${escapeHtml(line)}</p>`;
+    }).join("");
 }
 
 function resolveRelated(keys) {
