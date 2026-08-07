@@ -4,8 +4,10 @@
 #   main-Branch  = Quelle + Pipeline (dieses Verzeichnis, inkl. update.py/deploy.sh)
 #   pages-Branch = ausgelieferte Seite (nur index.html/app.js/style.css/data.js im Root)
 #
-# Codeberg liefert den pages-Branch aus. Zugangsdaten stehen in .secrets.env
-# (CODEBERG_USER, CODEBERG_TOKEN) und sind per .gitignore vom Repo ausgeschlossen.
+# Codeberg liefert den pages-Branch aus. Zusätzlich wird der Wiki-Eintrag
+# "Urteilssammlung" auf wiki.v14.berlin (Outline) aktualisiert.
+# Zugangsdaten stehen in .secrets.env (CODEBERG_USER, CODEBERG_TOKEN,
+# OUTLINE_TOKEN) und sind per .gitignore vom Repo ausgeschlossen.
 set -e
 cd "$(dirname "$0")"
 
@@ -17,11 +19,11 @@ set -a; . ./.secrets.env; set +a
 
 REPO_URL="https://${CODEBERG_USER}:${CODEBERG_TOKEN}@codeberg.org/${CODEBERG_USER}/cases.git"
 
-echo "=== 1/3  Export aus Zotero ==="
+echo "=== 1/4  Export aus Zotero ==="
 PYTHONUTF8=1 python urteile/update.py
 
 echo ""
-echo "=== 2/3  Quelle committen und nach main pushen ==="
+echo "=== 2/4  Quelle committen und nach main pushen ==="
 git add -A
 if git diff --cached --quiet; then
     echo "Keine Quell-Aenderungen."
@@ -41,7 +43,7 @@ else
 fi
 
 echo ""
-echo "=== 3/3  Seite in den pages-Branch bauen und pushen ==="
+echo "=== 3/4  Seite in den pages-Branch bauen und pushen ==="
 TMP=$(mktemp -d)
 if git clone --quiet --branch pages "$REPO_URL" "$TMP" 2>/dev/null; then
     :
@@ -66,4 +68,10 @@ cp urteile/index.html urteile/app.js urteile/style.css urteile/data.js "$TMP"/
 rm -rf "$TMP"
 
 echo ""
+echo "=== 4/4  Wiki-Eintrag aktualisieren (Outline) ==="
+# Schlaegt der Wiki-Schritt fehl, bricht der Deploy NICHT ab (cases.vc ist fertig).
+PYTHONUTF8=1 python urteile/update_wiki.py || echo "Wiki-Update uebersprungen/fehlgeschlagen."
+
+echo ""
 echo "Fertig! Codeberg baut die Seite neu - in ~1 Minute live unter https://cases.vc"
+echo "Wiki: https://wiki.v14.berlin/doc/urteilssammlung-NYuAEMfAmi"
