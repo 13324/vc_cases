@@ -41,7 +41,8 @@ def format_leitsaetze(text):
 
 
 def build_markdown(items):
-    items = sorted(items, key=lambda u: (u.get("dateDecided") or ""), reverse=True)
+    # Zuletzt hinzugefügt zuerst (Tiebreaker: neuestes Entscheidungsdatum)
+    items = sorted(items, key=lambda u: (u.get("dateAdded") or "", u.get("dateDecided") or ""), reverse=True)
     blocks = []
     for u in items:
         label = heading_label(u)
