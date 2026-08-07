@@ -175,13 +175,13 @@ const urteile = [
     "dateDecided": "2022-08-25",
     "dateAdded": "2023-08-16",
     "docketNumber": "8 AZR 453/21",
-    "url": "",
+    "url": "https://www.bundesarbeitsgericht.de/entscheidung/8-azr-453-21/",
     "tags": [
       "Wettbewerbsverbot"
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "Schließt der Arbeitnehmer eine Vereinbarung über die Gewährung (beschränkter) Aktienerwerbsrechte nicht mit seinem Arbeitgeber, sondern mit einem Dritten, ggf. einer (Konzern-)Obergesellschaft, sind die dem Arbeitnehmer gewährten Rechte bzw. die nach Wegfall von Beschränkungen zugeteilten Aktien grundsätzlich nicht Teil der „vertragsmäßigen Leistungen“ iSd. § 74 Abs. 2 HGB und deshalb bei der Berechnung der gesetzlichen Mindestkarenzentschädigung nicht zu berücksichtigen.",
+    "leitsaetze": "Schließt der Arbeitnehmer eine Vereinbarung über die Gewährung (beschränkter) Aktienerwerbsrechte nicht mit seinem Arbeitgeber, sondern mit einem Dritten, gegebenenfalls einer (Konzern-)Obergesellschaft, sind die dem Arbeitnehmer gewährten Rechte bzw. die nach Wegfall von Beschränkungen zugeteilten Aktien grundsätzlich nicht Teil der „vertragsmäßigen Leistungen“ im Sinne des § 74 Absatz II HGB und deshalb bei der Berechnung der gesetzlichen Mindestkarenzentschädigung nicht zu berücksichtigen.",
     "kommentar": ""
   },
   {
@@ -516,7 +516,7 @@ const urteile = [
   },
   {
     "key": "DIB9AYLD",
-    "caseName": "BSG, 20.7.2023 - B 12 BA 4/22 R - Kein Schutz vor Scheinselbstständigkeit durch zwischengeschaltete Ein-Personen-Gesellschaften",
+    "caseName": "Kein Schutz vor Scheinselbstständigkeit durch zwischengeschaltete Ein-Personen-Gesellschaften",
     "court": "BSG",
     "dateDecided": "2023-07-20",
     "dateAdded": "2026-07-30",
