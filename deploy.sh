@@ -23,7 +23,12 @@ echo "=== 1/4  Export aus Zotero ==="
 PYTHONUTF8=1 python urteile/update.py
 
 echo ""
-echo "=== 2/4  Quelle committen und nach main pushen ==="
+echo "=== 2/4  Wiki-Unterseiten aktualisieren (Outline) ==="
+# Schlaegt der Wiki-Schritt fehl, bricht der Deploy NICHT ab (cases.vc ist unabhängig).
+PYTHONUTF8=1 python urteile/update_wiki.py || echo "Wiki-Update uebersprungen/fehlgeschlagen."
+
+echo ""
+echo "=== 3/4  Quelle committen und nach main pushen ==="
 git add -A
 if git diff --cached --quiet; then
     echo "Keine Quell-Aenderungen."
@@ -43,7 +48,7 @@ else
 fi
 
 echo ""
-echo "=== 3/4  Seite in den pages-Branch bauen und pushen ==="
+echo "=== 4/4  Seite in den pages-Branch bauen und pushen ==="
 TMP=$(mktemp -d)
 if git clone --quiet --branch pages "$REPO_URL" "$TMP" 2>/dev/null; then
     :
@@ -66,11 +71,6 @@ cp urteile/index.html urteile/app.js urteile/style.css urteile/data.js "$TMP"/
     fi
 )
 rm -rf "$TMP"
-
-echo ""
-echo "=== 4/4  Wiki-Eintrag aktualisieren (Outline) ==="
-# Schlaegt der Wiki-Schritt fehl, bricht der Deploy NICHT ab (cases.vc ist fertig).
-PYTHONUTF8=1 python urteile/update_wiki.py || echo "Wiki-Update uebersprungen/fehlgeschlagen."
 
 echo ""
 echo "Fertig! Codeberg baut die Seite neu - in ~1 Minute live unter https://cases.vc"
