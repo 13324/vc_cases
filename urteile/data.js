@@ -22,7 +22,7 @@ const urteile = [
     "court": "BSG",
     "dateDecided": "2023-07-20",
     "dateAdded": "2024-10-29",
-    "docketNumber": "BSG Aktenzeichen B 12 BA 1/23 R",
+    "docketNumber": "B 12 BA 1/23 R",
     "url": "",
     "tags": [
       "Sozialversicherungsrecht"
@@ -512,6 +512,36 @@ const urteile = [
     "highlight": false,
     "related": [],
     "leitsaetze": "Rein kapitalistische Minderheitsbeteiligungen eines Gesellschafter-Geschäftsführers an einer Konkurrenzgesellschaft ohne Einfluss auf deren Geschäftsführung, ohne Tätigkeit im Unternehmen und ohne Möglichkeit, dieses zu beherrschen oder Einfluss auf unternehmerische Entscheidungen zu nehmen, sind im Regelfall unbedenklich und von der sachlichen Reichweite eines Wettbewerbsverbots des Gesellschafter-Geschäftsführers nicht umfasst.\n\nEine gesellschaftsvertragliche Regelung oder eine Regelung im Anstellungsvertrag, die ein Wettbewerbsverbot des Gesellschafter-Geschäftsführers vorsieht, muss im Lichte von Art. 12 Abs. 1 GG ausgelegt werden; sie erfasst ihrem rechtlich unbedenklichen Sinn und Zweck nach, die Gesellschaft vor der Aushöhlung von innen her zu schützen, im Regelfall nicht den rein kapitalistischen Erwerb einer Minderheitsbeteiligung an einem Konkurrenzunternehmen und ist ggf. entsprechend einschränkend auszulegen.\n\nZu den Anforderungen an die Darlegung eines Schadens, der Wahrscheinlichkeit eines Schadens bzw. gezogenen Vorteilen, soweit Ansprüche auf Schadensersatz, Auskunft, Vorteilsherausgabe sowie ein Eintrittsrecht analog § 113 HGB auf den Verstoß gegen ein gesellschaftsrechtliches Wettbewerbsverbot gestützt werden\n\nEinem Minderheitsgesellschafter stehen eigene Ansprüche aus der Verletzung eines gesellschaftsvertraglichen Wettbewerbsverbots durch einen Mitgesellschafter nur dann zu, wenn er einen über den durch die Minderung des Gesellschaftsvermögens im Wert seines Geschäftsanteils eingetretenen Reflexschaden hinausgehenden eigenen Schaden erlitten hat.\n\nEine im Gesellschaftsvertrag enthaltene Klausel, wonach eine anlässlich des Ausscheidens eines Gesellschafters zu leistende Abfindung nach dem im sog. \"Stuttgarter Verfahren\" ermittelten Wert seines Anteils berechnet wird, ist grundsätzlich wirksam und für die Parteien verbindlich.\n\nZu der Frage, unter welchen Voraussetzungen ein Schiedsgutachten zur Ermittlung des Anteilswertes nach dem \"Stuttgarter Verfahren\" offenbar unrichtig im Sinne von § 319 Abs. 1 Satz 1 BGB ist und welche Umstände bei der Bewertung nach dem Stuttgarter Verfahren im Einzelnen zu berücksichtigen sind.\n\nEine gesellschaftsvertragliche Abfindungsregelung, die an eine Anteilsbewertung nach dem Stuttgarter Verfahren anknüpft, kann unanwendbar und der Abfindungsbetrag anzupassen sein, wenn der sich nach dem Stuttgarter Verfahren ergebende Anteilswert vom tatsächlichen Verkehrswert des Anteils erheblich abweicht. Das gilt auch dann, wenn der tatsächliche Verkehrswert deutlich niedriger liegt als der nach Stuttgarter Verfahren ermittelte Anteilswert.\n\nZur Berechnung des tatsächlichen Wertes eines Gesellschaftsanteils auf der Grundlage des Ertragswertverfahrens",
+    "kommentar": ""
+  },
+  {
+    "key": "DIB9AYLD",
+    "caseName": "BSG, 20.7.2023 - B 12 BA 4/22 R - Kein Schutz vor Scheinselbstständigkeit durch zwischengeschaltete Ein-Personen-Gesellschaften",
+    "court": "BSG",
+    "dateDecided": "2023-07-20",
+    "dateAdded": "2026-07-30",
+    "docketNumber": "B 12 BA 4/22 R",
+    "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2023/2023_07_20_B_12_BA_04_22_R.html",
+    "tags": [
+      "Sozialversicherungsrecht"
+    ],
+    "highlight": false,
+    "related": [],
+    "leitsaetze": "",
+    "kommentar": ""
+  },
+  {
+    "key": "GYF5XL8H",
+    "caseName": "Sittenwidrigkeit freier Hinauskündigungsklauseln bei Managementbeteiligungen",
+    "court": "BGH",
+    "dateDecided": "2026-02-10",
+    "dateAdded": "2026-08-07",
+    "docketNumber": "II ZR 71/24",
+    "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2024/II_ZR__71-24.pdf?__blob=publicationFile&v=1",
+    "tags": [],
+    "highlight": false,
+    "related": [],
+    "leitsaetze": "In den Personengesellschaften und der GmbH sind gesellschaftsvertragliche Regelungen, die einem Gesellschafter, einer Gruppe von Gesellschaftern oder der Gesellschaftermehrheit das Recht einräumen, einen Mitgesellschafter ohne sachlichen Grund aus der Gesellschaft auszuschließen (freie Hinauskündigungsklauseln), oder vergleichbare schuldrechtliche Regelungen grundsätzlich nach § 138 Abs. 1 BGB nichtig, es sei denn, sie sind ausnahmsweise wegen besonderer Umstände sachlich gerechtfertigt. Maßgeblich ist insoweit eine tatbestandlich gebotene Gesamtbetrachtung sämtlicher Umstände und der beiderseits beteiligten Interessen im jeweiligen Einzelfall (Festhaltung BGH, Urteil vom 19. September 2005 - II ZR 173/04, BGHZ 164, 98, 101 f. - Managermodell; Urteil vom 7. Mai 2007 - II ZR 281/05, ZIP 2007, 1309 Rn. 19 f.).\n\nEine Hinauskündigungsklausel ist sachlich gerechtfertigt, wenn einem Geschäftsführer die Gesellschafterstellung wegen seiner Geschäftsführerstellung und zu einem mit dieser Stellung verbundenen Zweck, der mit der Beendigung seiner organ- oder dienstvertraglichen Bindung oder Tätigkeit entfällt, eingeräumt wird und seiner mitgliedschaftlichen Beteiligung als Gesellschafter in Anbetracht ihrer Ausgestaltung auch im Übrigen keine relevante eigenständige Bedeutung gegenüber seiner Geschäftsführerstellung beizumessen ist. Das setzt nicht zwingend voraus, dass der Geschäftsführer mit der Beteiligung kein oder nur ein geringes wirtschaftliches Risiko übernimmt",
     "kommentar": ""
   }
 ];
