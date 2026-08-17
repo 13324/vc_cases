@@ -6,14 +6,14 @@ const urteile = [
     "dateDecided": "2024-07-17",
     "dateAdded": "2024-10-30",
     "docketNumber": "22 W 25/24",
-    "url": "",
+    "url": "https://gesetze.berlin.de/bsbe/document/NJRE001584855",
     "tags": [
       "Beurkundungsrecht",
       "Handelsregister"
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "1. Eine nach österreichischem Recht erfolgte notarielle Online-Beglaubigung ist einer deutschen Beglaubigung mittels Videokommunikation nach § 40a BeurkG nicht gleichwertig.\n2. Aus den Gesellschaftsrechtsrichtlinien in der Fassung der Digitalisierungsrichtlinie der EU ergibt sich keine Pflicht zur Anerkennung.",
+    "leitsaetze": "Die nach österreichischem Recht erfolgte notarielle Online-Beglaubigung ist einer deutschen Beglaubigung mittels Videokommunikation nach § 40a BeurkG nicht gleichwertig. Eine Pflicht zur Anerkennung ergibt sich auch nicht aus der Gesellschaftsrechtsrichtlinie in der Fassung der Digitalisierungsrichtlinie der EU.\n\nEine Pflicht zur Anerkennung ergibt sich auch nicht aus der Gesellschaftsrechtsrichtlinie in der Fassung der Digitalisierungsrechtlinie der EU.",
     "kommentar": ""
   },
   {
@@ -23,7 +23,7 @@ const urteile = [
     "dateDecided": "2023-07-20",
     "dateAdded": "2024-10-29",
     "docketNumber": "B 12 BA 1/23 R",
-    "url": "",
+    "url": "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2023/2023_07_20_B_12_BA_01_23_R.html",
     "tags": [
       "Sozialversicherungsrecht"
     ],
@@ -39,7 +39,7 @@ const urteile = [
     "dateDecided": "2023-01-18",
     "dateAdded": "2024-07-26",
     "docketNumber": "20 Ca 7325/22",
-    "url": "",
+    "url": "https://openjur.de/u/2506503.html",
     "tags": [
       "Arbeitsrecht",
       "Mitarbeiterbeteiligung",
@@ -60,14 +60,14 @@ const urteile = [
     "dateDecided": "2024-02-07",
     "dateAdded": "2024-07-26",
     "docketNumber": "5 Sa 98/23",
-    "url": "",
+    "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2024-N-9071?hl=true",
     "tags": [],
     "highlight": false,
     "related": [
       "JQ2CCI3A",
       "PE9CBPIC"
     ],
-    "leitsaetze": "Die Regelung eines sukzessiven Verfalls bereits ausübbar gewordener (gevesteter) virtueller Optionen nach Beendigung des Arbeitsverhältnisses ist zulässig und benachteiligt den Arbeitnehmer nicht unangemessen.",
+    "leitsaetze": "Die Regelung eines sukzessiven Verfalls bereits ausübbar gewordener (\"gevesteter\") virtueller Optionen nach Beendigung des Arbeitsverhältnisses ist zulässig und benachteiligt den Kläger nicht unangemessen. Der Arbeitgeber ist berechtigt, die dem Arbeitnehmer mit den virtuellen Optionen zugewendete Gewinnchance nur befristet (hier auf einen Zeitraum von bis zu zwei Jahren nach der Beendigung des Arbeitsverhältnisses) einzuräumen. Der Grundsatz, dass bereits verdienter Lohn nicht mehr entzogen werden darf, wird dadurch nicht durchbrochen. Entzogen wird lediglich eine Verdienstchance: (virtuelle) Optionen bezwecken gerade nicht, dass die während des Arbeitsverhältnisses nicht eingetretene Realisierung eines Gewinns nach Beendigung des Arbeitsverhältnisses nachgeholt wird (im Anschluss an BAG 28.5.2008, 10 AZR 351/07).",
     "kommentar": ""
   },
   {
@@ -77,14 +77,14 @@ const urteile = [
     "dateDecided": "2024-05-22",
     "dateAdded": "2024-07-26",
     "docketNumber": "26 Ta (Kost) 6096/23",
-    "url": "",
+    "url": "https://online.ruw.de/dfv-xaver/ruw/start.xav?start=%2F%2F*%5B%40attr_id%3D%27RuWRS_2024%2FRuWRS_2024_757%27%20and%20%40outline_id%3D%27RuWRS_2024%27%5D",
     "tags": [
       "Arbeitsrecht",
       "Mitarbeiterbeteiligung"
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "",
+    "leitsaetze": "Bei Virtuellen Optionen handelt es sich um die Einräumung von Chancen.\n\nOb es jemals zu einem Zufluss kommt, ist nach den Optionsbedingungen ungewiss. Zudem fehlt es ihnen an der Fungibilität.\n\nNach der bisherigen Rechtsprechung des Bundesarbeitsgerichts stellen auch Aktienoptionen im Gegensatz zu anderen Sonderleistungen, die an den Gewinn oder Umsatz des Unternehmens in einem Geschäftsjahr anknüpfen oder individuelle Leistungen des Arbeitnehmers innerhalb einer bestimmten, überschaubaren Periode zusätzlich honorieren, weniger Gegenleistung für erbrachte Leistungen, sondern vielmehr Gewinnchance und Anreiz für zukünftigen Einsatz dar (vgl. BAG 28. Mai 2008 – 10 AZR 351/07, Rn. 34; so auch LAG München 7. Februar 2024 – 5 Sa 98/23, Rn. 86, für virtuelle Optionen, Revision eingelegt unter 10 AZR 67/24; krit. mit durchaus diskussionswürdigen Argumenten: ErfK/Preis, 24. Aufl. 2024, BGB § 611a Rn. 542, mwN).\n\nJedenfalls in der vorliegenden Konstellation haben die virtuellen Optionen kostenrechtlich keinen Einfluss auf den Gegenstandswert für den Kündigungsschutzantrag.\n\nEs besteht kein kostenrechtlich relevanter Bezug der individuellen Leistungen des Klägers zu den mit den Virtuellen Optionen verbundenen Chancen. Eine Betriebsvereinbarung aus dem Jahre 1992 kann bei der Bestimmung der Nettolohnobergrenze des Gesamtversorgungssystems pauschal und unabhängig von der individuell gegebenen oder nicht gegebenen Kirchenzugehörigkeit die Kirchensteuer in Abzug bringen. Eine solche Regelung in einer Betriebsvereinbarung verstößt nicht gegen Verfassungsrecht.",
     "kommentar": ""
   },
   {
@@ -94,13 +94,13 @@ const urteile = [
     "dateDecided": "2023-04-05",
     "dateAdded": "2024-02-06",
     "docketNumber": "7 U 6538/20",
-    "url": "",
+    "url": "https://openjur.de/u/2504237.html",
     "tags": [
       "Gesellschafterversammlungen"
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "1. Eine Stimmabgabe kann nach ihrem Zugang beim Versammlungsleiter nicht mehr widerrufen werden, unabhängig davon, ob ein wichtiger Grund für die Änderung des Abstimmungsverhaltens vorliegt, da es sich bei der Stimmabgabe um eine Willenserklärung i.S.d. § 130 Abs. 1 BGB handelt und deren Widerruf nach Zugang beim Erklärungsempfänger gem. § 130 Abs. 1 S. 2 BGB grundsätzlich nicht möglich ist.\n2. Da es sich bei § 873 Abs. 2, § 929 BGB um eine Ausnahmeregelung zu § 130 Abs. 1 BGB handelt, ist diese eng auszulegen und ihr Anwendungsbereich nicht auf andere Rechtsgeschäfte auszudehnen. Sie gilt auch nur für das dingliche Vollzugsgeschäft, nicht aber für die zugrunde liegende schuldrechtliche Verpflichtung.",
+    "leitsaetze": "",
     "kommentar": ""
   },
   {
@@ -110,13 +110,13 @@ const urteile = [
     "dateDecided": "2023-10-23",
     "dateAdded": "2024-01-08",
     "docketNumber": "3-02 O 56/22",
-    "url": "",
+    "url": "https://www.rv.hessenrecht.hessen.de/bshe/document/LARE230005217",
     "tags": [
       "M&A Beraterverträge"
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "",
+    "leitsaetze": "Ein M&A-Beratervertrag, zu dessen Pflichtenkatalog es gehört, den Auftraggeber umfassend im M&A-Prozess zu beraten und zu begleiten, ist nicht Maklervertrag, sondern Geschäftsbesorgungsdienstvertrag. Dies gilt auch dann, wenn der Vertrag ein erfolgsabhängiges Transaktionshonorar vorsieht. Ein solcher Vertrag ist AGB-rechtlich nicht am Leitbild des Maklervertrags zu messen.\n\nLässt sich ein solcher M&A-Berater ein erfolgsabhängiges Transaktionshonorar versprechen, das auch bei Zustandekommen einer Transaktion innerhalb eines Jahres nach Beendigung des Beratungsmandats zu zahlen ist, ohne dass es ein Kausalitätserfordernis gibt, liegt kein Fall der unangemessenen Benachteiligung nach § 307 Abs. 1 BGB vor. Dies gilt erst recht dann, wenn der M&A-Berater allein erfolgsabhängig und nicht zugleich aufwandsbezogen vergütet wird.\n\nIst Bemessungsgrundlage für das Transaktionshonorar eines M&A-Beraters der (Eigenkapital-)Kaufpreis, sind hierbei – mangels besonderer Regelung im Beratervertrag – auch nachgelagerte Kaufpreisbestandteile wie ein „Earn-Out“ zu berücksichtigen.",
     "kommentar": ""
   },
   {
@@ -126,13 +126,13 @@ const urteile = [
     "dateDecided": "2023-09-15",
     "dateAdded": "2024-01-05",
     "docketNumber": "V ZR 77/22",
-    "url": "",
+    "url": "https://openjur.de/u/2475498.html",
     "tags": [
       "Due Diligence"
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "Der Verkäufer eines bebauten Grundstücks, der dem Käufer Zugriff auf einen Datenraum mit Unterlagen und Informationen zu der Immobilie gewährt, erfüllt hierdurch seine Aufklärungspflicht nur, wenn und soweit er aufgrund der Umstände die berechtigte Erwartung haben kann, dass der Käufer durch Einsichtnahme in den Datenraum Kenntnis von dem offenbarungspflichtigen Umstand erlangen wird.",
+    "leitsaetze": "Der Verkäufer eines bebauten Grundstücks, der dem Käufer Zugriff auf einen Datenraum mit Unterlagen und Informationen zu der Immobilie gewährt, erfüllt hierdurch seine Aufklärungspflicht, wenn und soweit er aufgrund der Umstände die berechtigte Erwartung haben kann, dass der Käufer durch Einsichtnahme in den Datenraum Kenntnis von dem offenbarungspflichtigen Umstand erlangen wird.",
     "kommentar": ""
   },
   {
@@ -142,7 +142,7 @@ const urteile = [
     "dateDecided": "2012-01-23",
     "dateAdded": "2023-09-13",
     "docketNumber": "31 Wx 457/11",
-    "url": "",
+    "url": "https://openjur.de/u/496121.html",
     "tags": [
       "Genehmigtes Kapital"
     ],
@@ -158,14 +158,14 @@ const urteile = [
     "dateDecided": "2022-08-08",
     "dateAdded": "2023-09-12",
     "docketNumber": "22 W 39/22",
-    "url": "",
+    "url": "https://gesetze.berlin.de/bsbe/document/NJRE001514433",
     "tags": [
       "Beurkundungsrecht",
       "Genehmigtes Kapital"
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "Die Pflicht zur Einreichung einer Gesellschafterliste nach § 40 Abs. 2 GmbHG ergibt sich nicht allein deshalb, weil der Notar die Anmeldung der Kapitalerhöhung oder die Übernahmeerklärung beglaubigt.",
+    "leitsaetze": "Die Pflicht zur Einreichung einer Gesellschafterliste nach § 40 Abs. 2 GmbHG ergibt sich nicht allein deshalb, weil der Notar die Anmeldung der Kapitalerhöhung oder die Übernahmeerklärung beglaubigt.",
     "kommentar": ""
   },
   {
@@ -191,13 +191,13 @@ const urteile = [
     "dateDecided": "2022-02-09",
     "dateAdded": "2023-08-15",
     "docketNumber": "12 U 54/21",
-    "url": "",
+    "url": "https://openjur.de/u/2437894.html",
     "tags": [
       "Insolvenzrecht"
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "1. Bei einem Start-Up-Unternehmen müssen im Rahmen der Überschuldungsprüfung die Anforderungen an die Fortführungsprognose im Lichte der Besonderheiten derartiger Unternehmen betrachtet werden. Ausreichend – aber auch erforderlich – ist, dass das Unternehmen mit überwiegender, d.h. mehr als 50-prozentiger Wahrscheinlichkeit in der Lage ist, seine im Prognosezeitraum fälligen Zahlungsverpflichtungen aufgrund der Bereitstellung oder Zusage externer Finanzierungsmittel zu decken.\n2. Eine erfolgversprechende Marktentwicklung stellt einen Umstand dar, aus dem sich eine positive Fortführungsprognose ergeben kann. Das setzt eine nachvollziehbare, realistische Finanzplanung mit einem operativen Konzept voraus, das die geplante Geschäftsausrichtung erfolgversprechend erscheinen lässt. Die Zusage eines finanzkräftigen Investors, der das Unternehmen bereits in der Vergangenheit mit Darlehen finanziell unterstützt hat, vermag eine positive Fortführungsprognose jedenfalls nur dann zu begründen, wenn dieser die Bereitstellung weiterer Mittel von der Vorlage einer aktuellen, nachvollziehbaren und realistischen Planung abhängig gemacht hat und aufgrund dessen bis zu einer erfolgversprechenden Marktentwicklung die Finanzierung durch weitere Darlehen des Investors gesichert erscheint.\n3. Fehlt es hieran und hängt die Bereitstellung weiterer finanzieller Mittel in jedem Einzelfall allein vom Willen des Geldgebers ab, kann sich der Geschäftsführer nicht darauf verlassen, dass die Finanzierung bis zur erfolgreichen Etablierung des Unternehmens am Markt gesichert ist.",
+    "leitsaetze": "",
     "kommentar": ""
   },
   {
@@ -207,7 +207,7 @@ const urteile = [
     "dateDecided": "2023-04-19",
     "dateAdded": "2023-07-31",
     "docketNumber": "19 OH 1/21",
-    "url": "",
+    "url": "https://nrwe.justiz.nrw.de/lgs/duesseldorf/lg_duesseldorf/j2023/19_OH_1_21_Beschluss_20230419.html",
     "tags": [
       "Beurkundungsrecht",
       "Gebührenrecht"
@@ -224,7 +224,7 @@ const urteile = [
     "dateDecided": "2023-02-16",
     "dateAdded": "2023-04-20",
     "docketNumber": "1 U 311/20",
-    "url": "",
+    "url": "https://www.rv.hessenrecht.hessen.de/bshe/document/LARE230004130",
     "tags": [
       "M&A Beraterverträge"
     ],
@@ -279,17 +279,17 @@ const urteile = [
     ],
     "highlight": true,
     "related": [],
-    "leitsaetze": "1. Zu den Voraussetzungen einer Überschuldung im Sinne des § 19 Abs. 2 InsO sowie zu der den nach § 64 Satz 1 (in der bis zum 31.12.2021 geltenden Fassung) in Anspruch genommenen Geschäftsführer insoweit treffenden Darlegungs- und Beweislast.\n2. Bei einer Wandeldarlehensvereinbarung mit einer GmbH, in der für bestimmte Fälle eine verbindliche Wandlungsverpflichtung zu Lasten des Darlehensgebers nach einem festgelegten Schlüssel vorgesehen ist, bedarf die Unterschrift des Übernehmers jedenfalls dann der notariellen Beglaubigung gemäß § 55 Abs. 1 GmbHG, sofern es sich bei ihm um eine gesellschaftsfremde Person handelt.\n3. Sieht eine Wandeldarlehensvereinbarung mit einseitiger Wandlungsoption für den Darlehensnehmer im Fall der Ausübung des Wandlungsrechtes eine für die Gesellschaft verbindliche satzungsändernde Kapitalerhöhung vor, spricht vieles für eine Pflicht zur notariellen Beurkundung des zu Grunde liegenden Gesellschafterbeschlusses nach § 53 Abs. 2 GmbHG.",
+    "leitsaetze": "Zu den Voraussetzungen einer Überschuldung im Sinne des § 19 Abs. 2 InsO sowie zu der den nach § 64 Satz 1 (in der bis zum 31.12.2021 geltenden Fassung) in Anspruch genommenen Geschäftsführer insoweit treffenden Darlegungs- und Beweislast.\n\nBei einer Wandeldarlehensvereinbarung mit einer GmbH, in der für bestimmte Fälle eine verbindliche Wandlungsverpflichtung zu Lasten des Darlehensgebers nach einem festgelegten Schlüssel vorgesehen ist, bedarf die Unterschrift des Übernehmers jedenfalls dann der notariellen Beglaubigung gemäß § GMBHG § 55 Abs. GMBHG § 55 Absatz 1 GmbHG, sofern es sich bei ihm um eine gesellschaftsfremde Person handelt. \n\nSieht eine Wandeldarlehensvereinbarung mit einseitiger Wandlungsoption für den Darlehensnehmer im Fall der Ausübung des Wandlungsrechtes eine für die Gesellschaft verbindliche satzungsändernde Kapitalerhöhung vor, spricht vieles für eine Pflicht zur notariellen Beurkundung des zu Grunde liegenden Gesellschafterbeschlusses nach § GMBHG § 53 Abs. GMBHG § 53 Absatz 2 GmbHG.",
     "kommentar": ""
   },
   {
     "key": "5ABCTQHG",
-    "caseName": "Nachweis der Amtsniederlegung eines GmbH-Geschäftsführers",
+    "caseName": "Nachweis einer Beendigung der Vertretungsbefugnis durch Amtsniederlegung eines Geschäftsführer",
     "court": "KG",
     "dateDecided": "2022-06-30",
     "dateAdded": "2026-02-17",
     "docketNumber": "22 W 36/22",
-    "url": "https://beck-online.beck.de/Dokument?pos=2&vpath=bibdata%2Fents%2Fbeckrs%2F2022%2Fcont%2Fbeckrs.2022.23992.htm&hlwords=on",
+    "url": "https://gesetze.berlin.de/bsbe/document/NJRE001514427",
     "tags": [
       "Handelsregister",
       "Nachweise"
@@ -301,7 +301,7 @@ const urteile = [
   },
   {
     "key": "HFR9TLXU",
-    "caseName": "Vesting-Klausel im Shareholder Agreement und Abberufung des Founders",
+    "caseName": "Wirksamkeit der Vereinbarung eines unbefristeten Bad Leaver Event bei Abberufung als Geschäftsführer wegen strafbaren Verhaltens; Voraussetzungen der Unzumutbarkeit der weiteren Tätigkeit des Geschäftsführers",
     "court": "KG",
     "dateDecided": "2025-05-19",
     "dateAdded": "2026-02-17",
@@ -312,7 +312,7 @@ const urteile = [
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "1. Eine (vorab-) Weiterleitung der später angefochtenen Entscheidung an die Mandantschaft durch Rechtsanwaltsfachangestellte oder Assessoren begründet noch keine Zustellung (und keinen Fristlauf), weil die Befugnis, elektronische Empfangsbekenntnisse abzugeben, nur dem in § 173 Abs. 2 ZPO privilegierten Adressatenkreis zusteht.\n2. Zur Zulässigkeit einer Vesting-Klausel in einem Shareholder Agreement, nach der die wirksame Abberufung des Founders als Gesellschafter-Geschäftsführer und die wirksame Kündigung seines Geschäftsführer-Anstellungsvertrages zugleich und zeitlich unbefristet den Verlust der Geschäftsanteile seines Founder Vehicles bewirken soll, wenn der Abberufung ein vorsätzliches Handeln oder eine strafbare Handlung zugrunde liegt.\n3. Zur Unzumutbarkeit der weiteren Tätigkeit eines Founders als Gesellschafter-Geschäftsführer der Holding und der operativen Gesellschaft und der dabei anzustellenden Gesamtabwägung in einem Einzelfall.",
+    "leitsaetze": "Eine (vorab-) Weiterleitung der später angefochtenen Entscheidung an die Mandantschaft durch Rechtsanwaltsfachangestellte oder Assessoren begründet noch keine Zustellung (und keinen Fristlauf), weil die Befugnis, elektronische Empfangsbekenntnisse abzugeben, nur dem in § 173 Abs. 2 ZPO privilegierten Adressatenkreis zusteht.\n\nZur Zulässigkeit einer Vesting-Klausel in einem Shareholder Agreement, nach der die wirksame Abberufung des Founders als Gesellschafter-Geschäftsführer und die wirksame Kündigung seines Geschäftsführer-Anstellungsvertrages zugleich und zeitlich unbefristet den Verlust der Geschäftsanteile seines Founder Vehicles bewirken soll, wenn der Abberufung ein vorsätzliches Handeln oder eine strafbare Handlung zugrunde liegt.\n\nZur Unzumutbarkeit der weiteren Tätigkeit eines Founders als Gesellschafter-Geschäftsführer der Holding und der operativen Gesellschaft und der dabei anzustellenden Gesamtabwägung in einem Einzelfall.",
     "kommentar": ""
   },
   {
@@ -328,7 +328,7 @@ const urteile = [
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "1. Die Regelung des § 121 Abs. 5 S. 1 AktG (analog für die GmbH), wonach mangels abweichender Satzungsregelung die Hauptversammlung am Sitz der Gesellschaft stattfinden soll, bezweckt, die Gesellschafter vor einer willkürlichen Wahl des Versammlungsortes und einer daraus folgenden Beeinträchtigung ihres Teilnahmerechtes zu schützen. (redaktioneller Leitsatz)\n\n2. Zumindest in einer Gesellschaft mit einem überschaubaren Gesellschafterkreis darf ein Ort gewählt werden, von dem von vornherein feststeht, dass er die Teilnahme nicht erschwert, weil ihn die Gesellschafter leichter als den Sitz der Gesellschaft erreichen können. Des Weiteren darf von der Sollbestimmung abgewichen werden, wenn am Sitz der Gesellschaft kein geeignetes Versammlungslokal vorhanden ist oder die Verkehrsverbindung dorthin gestört ist. (redaktioneller Leitsatz)\n\n3. Der Anfechtung steht nicht entgegen, dass der fehlerhafte Versammlungsort keine Auswirkung auf das Beschlussergebnis hatte. Für die Anfechtbarkeit genügt die Relevanz des Fehlers für das Mitwirkungs- oder Partizipationsrecht entsprechend § 243 Abs. 4 AktG; insoweit ist der Versammlungsort für das Teilhaberecht eines Gesellschafters von grundsätzlicher Bedeutung. (redaktioneller Leitsatz)",
+    "leitsaetze": "",
     "kommentar": ""
   },
   {
@@ -344,7 +344,7 @@ const urteile = [
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "1. Erklärt ein GmbH-Gesellschaftsvertrag die „Zustimmung der Mehrheit der Gesellschafter“ zur (weiteren) Wirksamkeitsvoraussetzung der Abtretung von Geschäftsanteilen i.S. des § 15 Abs. 5, 1. HS GmbHG, so ist diese Formulierung nicht in dem Sinne zu verstehen, daß die Zustimmung einzelner Gesellschafter genügen soll, sofern nur die Gesamtheit der zustimmenden Gesellschafter die Mehrheit der Stimmen hält (sog. „Mehrheitsquorum“).\n\n2. Die Klausel ist vielmehr so auszulegen, daß die Zustimmung „der Gesellschafter“ einen mit einfacher Mehrheit gefaßten Gesellschafterbeschluß voraussetzt; die Einfügung der Worte: „der Mehrheit …“ stellt dabei lediglich klar, daß nicht etwa alle Gesellschafter zustimmen müssen, sondern ein mehrheitlicher Beschluß ausreicht.",
+    "leitsaetze": "Erklärt ein GmbH-Gesellschaftsvertrag die „Zustimmung der Mehrheit der Gesellschafter“ zur (weiteren) Wirksamkeitsvoraussetzung der Abtretung von Geschäftsanteilen i.S. des § 15 Abs. 5, 1. HS GmbHG, so ist diese Formulierung nicht in dem Sinne zu verstehen, daß die Zustimmung einzelner Gesellschafter genügen soll, sofern nur die Gesamtheit der zustimmenden Gesellschafter die Mehrheit der Stimmen hält (sog. „Mehrheitsquorum“).\n\nDie Klausel ist vielmehr so auszulegen, dass die Zustimmung \"der Gesellschafter\" einen mit einfacher Mehrheit gefassten Gesellschafterbeschluss voraussetzt; die Einfügung der Worte: \"der Mehrheit…\" stellt dabei lediglich klar, dass nicht etwa alle Gesellschafter zustimmen müssen. sondern ein mehrheitlicher Beschluss ausreicht.",
     "kommentar": ""
   },
   {
@@ -386,7 +386,7 @@ const urteile = [
     "dateDecided": "2025-03-19",
     "dateAdded": "2026-02-20",
     "docketNumber": "10 AZR 67/24",
-    "url": "https://beck-online.beck.de/Dokument?vpath=bibdata%2Fzeits%2Fnza%2F2025%2Fcont%2Fnza.2025.927.1.htm&pos=1&hlwords=on",
+    "url": "https://www.bundesarbeitsgericht.de/entscheidung/10-azr-67-24/",
     "tags": [
       "Arbeitsrecht",
       "Mitarbeiterbeteiligung",
@@ -407,7 +407,7 @@ const urteile = [
     "dateDecided": "2025-01-30",
     "dateAdded": "2026-02-23",
     "docketNumber": "2 AZR 68/24",
-    "url": "",
+    "url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-68-24/",
     "tags": [
       "Nachweise"
     ],
@@ -423,7 +423,7 @@ const urteile = [
     "dateDecided": "2023-09-12",
     "dateAdded": "2026-02-23",
     "docketNumber": "II ZB 6/23",
-    "url": "https://openjur.de/u/2476973.html",
+    "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2023/II_ZB___6-23.pdf?__blob=publicationFile&v=1",
     "tags": [
       "Beurkundungsrecht",
       "Notargebühren"
@@ -435,12 +435,12 @@ const urteile = [
   },
   {
     "key": "XJNB4YA4",
-    "caseName": "Notwendigkeit des Nachweises der ordnungsgemäßen Ladung der Gesellschafter zur Gesellschafterversammlung",
+    "caseName": "Handelsregistereintragung: Prüfungsumfang des Registergerichts vor Eintragung eines GmbH-Geschäftsführerwechsels im Hinblick auf eine ordnungsgemäße Ladung zur beschlussfassenden Gesellschafterversammlung",
     "court": "Kammergericht",
     "dateDecided": "2025-02-20",
     "dateAdded": "2026-02-25",
     "docketNumber": "22 W 4/25",
-    "url": "https://beck-online.beck.de/Dokument?VPath=bibdata%2Fzeits%2Ffgprax%2F2025%2Fcont%2Ffgprax.2025.69.1.htm&ReadableType=Parallelfundstellen&HLWords=on&JumpType=SingleHitJump&JumpWords=%2BKG%252c%2B20.02.2025%2B-%2B22%2BW%2B4%252f25%2B&Readable=Suche%2Bnach%2BGericht%2BDatum%2BAktenzeichen%253a%2BKG%2B20.02.2025%2B22%2BW%2B4%2526%252347%253b25%2Bnur%2Bin%2Bmeinen%2BModulen",
+    "url": "https://gesetze.berlin.de/bsbe/document/NJRE001601668",
     "tags": [
       "Gesellschafterversammlungen",
       "Nachweise"
@@ -457,7 +457,7 @@ const urteile = [
     "dateDecided": "2025-11-28",
     "dateAdded": "2026-02-25",
     "docketNumber": "2x W 74/25",
-    "url": "https://beck-online.beck.de/Dokument?VPath=bibdata%2Fents%2Fbeckrs%2F2025%2Fcont%2Fbeckrs.2025.34037.htm&ReadableType=Parallelfundstellen&HLWords=on&JumpType=SasJump&JumpWords=%2B2x%2BW%2B74%252f25%252c%2B2%2BWx%2B74%252f25&Readable=Keine%2BTreffer%2Bf%25c3%25bcr%2Bdie%2BSuche%2Bnach%253a%2B%2526quot%253b%253cb%253e%2B2x%2BW%2B74%252f25%252c%2B2%2BWx%2B74%252f25%253c%252fb%253e%2526quot%253b.%253cbr%253eDie%2BSuche%2Bnach%2Bdem%2BAktenzeichen%2B%2526quot%253b%253cb%253e2x%2BW%2B74%252f25%253c%252fb%253e%2526quot%253b%2Bergab%2Bfolgenden%2Beindeutigen%2BTreffer%253a",
+    "url": "https://www.gesetze-rechtsprechung.sh.juris.de/bssh/document/NJRE001627824",
     "tags": [
       "Registerrecht"
     ],
@@ -473,7 +473,7 @@ const urteile = [
     "dateDecided": "2025-04-03",
     "dateAdded": "2026-03-31",
     "docketNumber": "5 U 123/23",
-    "url": "https://beck-online.beck.de/Dokument?vpath=bibdata%2Fents%2Fbeckrs%2F2025%2Fcont%2Fbeckrs.2025.37565.htm&anchor=Y-300-Z-BECKRS-B-2025-N-37565",
+    "url": "https://www.rv.hessenrecht.hessen.de/bshe/document/LARE250001510",
     "tags": [
       "M&A Beraterverträge"
     ],
