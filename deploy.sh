@@ -5,7 +5,7 @@
 #   pages-Branch = ausgelieferte Seite (nur index.html/app.js/style.css/data.js im Root)
 #
 # Codeberg liefert den pages-Branch aus. Zusätzlich wird der Wiki-Eintrag
-# "Urteilssammlung" auf wiki.v14.berlin (Outline) aktualisiert.
+# "Urteilssammlung" auf wiki.v14.tools (Outline) aktualisiert.
 # Zugangsdaten stehen in .secrets.env (CODEBERG_USER, CODEBERG_TOKEN,
 # OUTLINE_TOKEN) und sind per .gitignore vom Repo ausgeschlossen.
 set -e
@@ -74,4 +74,4 @@ rm -rf "$TMP"
 
 echo ""
 echo "Fertig! Codeberg baut die Seite neu - in ~1 Minute live unter https://cases.vc"
-echo "Wiki: https://wiki.v14.berlin/doc/urteilssammlung-NYuAEMfAmi"
+echo "Wiki: https://wiki.v14.tools/doc/urteilssammlung-NYuAEMfAmi"

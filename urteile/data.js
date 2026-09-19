@@ -546,7 +546,7 @@ const urteile = [
   },
   {
     "key": "6YD3LKU8",
-    "caseName": "L 2 BA 941/24 - Sozialgerichtsbarkeit",
+    "caseName": "Zum Versicherungsstatus einer früheren Allein-Gesellschafter-Geschäftsführerin",
     "court": "LSG Baden-Württemberg",
     "dateDecided": "2025-08-06",
     "dateAdded": "2026-08-27",

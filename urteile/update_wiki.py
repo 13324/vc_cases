@@ -1,4 +1,4 @@
-"""Spiegelt die Urteilssammlung ins Outline-Wiki (wiki.v14.berlin).
+"""Spiegelt die Urteilssammlung ins Outline-Wiki (wiki.v14.tools).
 
 Struktur: Unter der Seite "Urteilssammlung" (PARENT_DOC_ID) liegt pro Urteil
 eine eigene Unterseite ("Gericht, AZ - Titel" mit Metazeile, Quelle, Leitsätzen).
@@ -23,7 +23,7 @@ MAX_TITLE = 100  # Outline begrenzt Seitentitel auf 100 Zeichen
 
 DATA = Path(__file__).parent / "data.js"
 MAP_FILE = Path(__file__).parent / "wiki_map.json"
-API = "https://wiki.v14.berlin/api"
+API = "https://wiki.v14.tools/api"
 PARENT_DOC_ID = "b8cb8212-826d-46f4-baca-d8bfbbb74337"   # Seite "Urteilssammlung"
 COLLECTION_ID = "b7c4555a-cdd7-4e54-ad88-44d997fad26b"
 TOKEN = os.environ.get("OUTLINE_TOKEN", "").strip()
