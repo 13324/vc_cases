@@ -100,7 +100,7 @@ const urteile = [
     ],
     "highlight": false,
     "related": [],
-    "leitsaetze": "",
+    "leitsaetze": "1. Eine Stimmabgabe kann nach ihrem Zugang beim Versammlungsleiter nicht mehr widerrufen werden, unabhängig davon, ob ein wichtiger Grund für die Änderung des Abstimmungsverhaltens vorliegt, da es sich bei der Stimmabgabe um eine Willenserklärung i.S.d. § 130 Abs. 1 BGB handelt und deren Widerruf nach Zugang beim Erklärungsempfänger gem. § 130 Abs. 1 S. 2 BGB grundsätzlich nicht möglich ist.\n2. Da es sich bei § 873 Abs. 2, § 929 BGB um eine Ausnahmeregelung zu § 130 Abs. 1 BGB handelt, ist diese eng auszulegen und ihr Anwendungsbereich nicht auf andere Rechtsgeschäfte auszudehnen. Sie gilt auch nur für das dingliche Vollzugsgeschäft, nicht aber für die zugrunde liegende schuldrechtliche Verpflichtung.",
     "kommentar": ""
   },
   {
@@ -272,7 +272,7 @@ const urteile = [
     "dateDecided": "2022-05-17",
     "dateAdded": "2026-02-17",
     "docketNumber": "8 U 30/19",
-    "url": "https://beck-online.beck.de/Dokument?pos=1&vpath=bibdata%2Fents%2Fbeckrs%2F2022%2Fcont%2Fbeckrs.2022.17739.htm&hlwords=on",
+    "url": "https://www.landesrecht.rlp.de/bsrp/document/NJRE001509206",
     "tags": [
       "Beurkundungsrecht",
       "Wandeldarlehen"
@@ -542,6 +542,22 @@ const urteile = [
     "highlight": false,
     "related": [],
     "leitsaetze": "In den Personengesellschaften und der GmbH sind gesellschaftsvertragliche Regelungen, die einem Gesellschafter, einer Gruppe von Gesellschaftern oder der Gesellschaftermehrheit das Recht einräumen, einen Mitgesellschafter ohne sachlichen Grund aus der Gesellschaft auszuschließen (freie Hinauskündigungsklauseln), oder vergleichbare schuldrechtliche Regelungen grundsätzlich nach § 138 Abs. 1 BGB nichtig, es sei denn, sie sind ausnahmsweise wegen besonderer Umstände sachlich gerechtfertigt. Maßgeblich ist insoweit eine tatbestandlich gebotene Gesamtbetrachtung sämtlicher Umstände und der beiderseits beteiligten Interessen im jeweiligen Einzelfall (Festhaltung BGH, Urteil vom 19. September 2005 - II ZR 173/04, BGHZ 164, 98, 101 f. - Managermodell; Urteil vom 7. Mai 2007 - II ZR 281/05, ZIP 2007, 1309 Rn. 19 f.).\n\nEine Hinauskündigungsklausel ist sachlich gerechtfertigt, wenn einem Geschäftsführer die Gesellschafterstellung wegen seiner Geschäftsführerstellung und zu einem mit dieser Stellung verbundenen Zweck, der mit der Beendigung seiner organ- oder dienstvertraglichen Bindung oder Tätigkeit entfällt, eingeräumt wird und seiner mitgliedschaftlichen Beteiligung als Gesellschafter in Anbetracht ihrer Ausgestaltung auch im Übrigen keine relevante eigenständige Bedeutung gegenüber seiner Geschäftsführerstellung beizumessen ist. Das setzt nicht zwingend voraus, dass der Geschäftsführer mit der Beteiligung kein oder nur ein geringes wirtschaftliches Risiko übernimmt",
+    "kommentar": ""
+  },
+  {
+    "key": "6YD3LKU8",
+    "caseName": "L 2 BA 941/24 - Sozialgerichtsbarkeit",
+    "court": "LSG Baden-Württemberg",
+    "dateDecided": "2025-08-06",
+    "dateAdded": "2026-08-27",
+    "docketNumber": "L 2 BA 941/24",
+    "url": "https://www.sozialgerichtsbarkeit.de/entscheidungen/179428",
+    "tags": [
+      "Sozialversicherungsrecht"
+    ],
+    "highlight": false,
+    "related": [],
+    "leitsaetze": "Zum Versicherungsstatus einer früheren Allein-Gesellschafter-Geschäftsführerin nach Veräußerung deren Geschäftsbetriebs und übergangsweiser Ausübung einer Beratertätigkeit für die Unternehmensnachfolger.",
     "kommentar": ""
   }
 ];
